@@ -1,13 +1,14 @@
 # 
+
 ![Logo3](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t9-time1_matchpet/blob/main/src/logo-matchpet.png)
 
 <br>
 
-`CURSO: Análise e Desenvolvimento de Sistemas`
+`TECNÓLOGO EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS`
 
-`DISCIPLINA: Projeto: Desenvolvimento de Aplicação Web Front-End`
+`Projeto - Desenvolvimento de Aplicação Web Front-End`
 
-`1º semestre de 2023`
+`SEMESTRE 1/2023`
 
 Página web para adoção de animais.
 
