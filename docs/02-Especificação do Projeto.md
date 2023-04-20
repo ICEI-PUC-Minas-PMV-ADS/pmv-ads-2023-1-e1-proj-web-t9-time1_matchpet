@@ -1,26 +1,26 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
-
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+A identificação do problema e dos aspectos mais relevantes a serem abordados neste projeto foi realizada por meio de pesquisas e observação dos usuários. Para detalhar esses aspectos, foram utilizados personas e histórias de usuários. 
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+As personas criadas durante o processo de compreensão do problema estão apresentadas nas figuras abaixo. 
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+|Cristina Fernanda      | Informações:                       |                                        |
+|--------------------|----------------------------------|--------------------------------------|
+| ![persona1](/src/persona1.jpg) | **Idade:** 65 <br> **Ocupação:** Servidora pública aposentada. |**Aplicativos:**<br>● Facebook  <br>● Instagram<br>● WhatsApp   |
+|**Motivações:**<br>● Sempre desejou de ter um cachorro;<br>● Ter um cachorro para acompanhá-la em seu cotidiano. |**Frustrações:**<br>● Se sente sozinha; <br>● Filhos moram em outro Estado. |**Hobbies, História:**<br>● Viúva; <br>● Mora sozinha; <br>● Viaja a lazer com frequência. |
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+|Maria Lucia         | Informações:                       |                                        |
+|--------------------|----------------------------------|--------------------------------------|
+| ![persona2]() | **Idade:** 40 <br> **Ocupação:** Administradora, trabalha em uma ONG, sendo responsável por cuidar de animais que estão sob tutela da organização. |**Aplicativos:**<br>● Facebook  <br>● Instagram<br>● OLX   |
+|**Motivações:**<br>● Ajudar animais em situação de abandono e/ou maus tratos a encontrarem tutores amorosos e responsáveis. |**Frustrações:**<br>● Dificuldade em encontrar tutores para os animais da ONG; <br>● Superlotação de animais na ONG. |**Hobbies, História:**<br>● Trabalhar em projetos filantrópicos; <br>● Passear no parque; <br>● Trekking.|
+
+|Juliana Freitas       | Informações:                       |                                        |
+|--------------------|----------------------------------|--------------------------------------|
+| ![persona3]() | **Idade:** 26 <br> **Ocupação:** Servidora pública aposentada. |**Aplicativos:**<br>● Facebook  <br>● Instagram<br>● Twitter    |
+|**Motivações:**<br>● Sempre desejou de ter um cachorro;<br>● Ter um cachorro para acompanhá-la em seu cotidiano. |**Frustrações:**<br>● Se sente sozinha; <br>● Filhos moram em outro Estado. |**Hobbies, História:**<br>● Viúva; <br>● Mora sozinha; <br>● Viaja a lazer com frequência. |
+
 
 ## Histórias de Usuários
 
