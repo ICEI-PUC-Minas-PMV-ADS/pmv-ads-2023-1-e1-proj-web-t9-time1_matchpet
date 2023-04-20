@@ -1,46 +1,52 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+Segundo a Organização Mundial da Saúde (OMS), o Brasil possui aproximadamente 30 milhões de animais abandonados, sendo aproximadamente 10 milhões de gatos e 20 milhões de cães. Apesar de o Brasil possuir uma legislação de 1998 que penaliza o abandono de animais, o problema continua se arrastando até os dias atuais. Estudos apontam que, devido à pandemia, houve um aumento de 60% no número de animais abandonados e recolhidos no País (LIMA, 2022).   
+
+Apesar da problemática, a população ainda recorre à adoção, uma vez que ter um animal de estimação proporciona vários benefícios sociais e psíquicos, auxiliando inclusive no tratamento de doenças (GIUMELLI e SANTOS, 2016).   
+
+Visando conscientizar a população, empresas, abrigos e Organizações Não Governamentais (ONGs) promovem campanhas sobre a seriedade e responsabilidade do ato de adotar um animal. De acordo com Constantino (2021), é fundamental utilização instrumentos para avaliar se o candidato está realmente apto para adotar um animal.  Esses instrumentos devem informar claramente quais demandas relacionadas à saúde e bem-estar do animal que deverão ser atendidas pelo candidato. Tornando assim a adoção um processo mais seguro para o animal que aguarda um lar. 
+
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
 
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
+O processo de adoção de animais muitas vezes pode ser complicado, burocrático e demorado. O número de cães e gatos abandonados no Brasil só aumenta, a Amparo Animais, entidade que apoia abrigos e protetores em todo o país, estima um crescimento de 60% nos casos de pets deixados à própria sorte desde a pandemia. muitos abrigos e organizações têm dificuldade em encontrar lares adotivos para os animais sob sua tutela, devido à falta de atenção do estado e da crueldade dos antigos donos que cometem o crime de acordo com a Lei 9.605/98, artigo 32. A falta de informação para o público em como proceder e iniciar o processo de adoção, apenas dificulta a luta pela causa dos pobres animais. 
 
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Criar um sistema que facilite o processo de adoção para ajudar pessoas comuns, protetores, abrigos e organizações a encontrarem lares adotivos para os animais sob sua tutela.  
+
+Como objetivos específicos, podemos ressaltar: 
+
+- Criar um sistema de cadastro de abrigos e organizações de proteção animal; 
+
+- Possibilitar a troca de informações e interação entre doadores e adotantes. 
+
+- Criar ferramentas de busca avançada que permitam aos usuários filtrarem os resultados por características específicas do animal, como idade, porte, temperamento e histórico de saúde, a fim de facilitar a escolha do adotante e garantir um match adequado entre o animal e seu novo lar; 
+
+- Implementar um sistema que avalie os candidatos à adoção possibilitando aos abrigos e organizações de proteção animal verificar se o candidato tem condições de oferecer um lar seguro e adequado ao animal, incluindo a verificação de histórico de adoções anteriores, informações de contato de referências pessoais e/ou profissionais, além de uma visita presencial à residência do adotante antes da efetivação da adoção. 
+
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+O projeto tem como proposta criar um sistema integrado para facilitar a adoção de animais. Atualmente, há uma carência de sites e aplicativos que abrangem a divulgação de animais para adoção nacionalmente e com informações específicas e direcionadas ao público-alvo. A maioria das postagens nas redes sociais contém informações insuficientes e genéricas. Dessa forma, o sistema contribuirá para uma adoção mais consciente e responsável, promovendo maior visibilidade aos animais disponíveis, fornecendo informações detalhadas e embasadas sobre os cuidados e necessidades específicas dos animais, além de reduzir o abandono e a superlotação dos abrigos e organizações de proteção animal. 
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+O público-alvo deste projeto é composto por diversos grupos de interesse envolvidos no processo de adoção de animais, incluindo: 
 
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+- Pessoas interessadas em adotar animais: Indivíduos e famílias que buscam adotar um animal de estimação de forma responsável e consciente; 
+
+- Protetores de animais independentes: Pessoas que atuam na proteção e no cuidado de animais abandonados e/ou em situação de vulnerabilidade; 
+
+- Abrigos e organizações de proteção animal: Entidades que atuam no resgate, cuidado e promoção da adoção de animais; 
+
+- Profissionais e voluntários envolvidos na causa animal: Veterinários, adestradores, voluntários e outros profissionais que trabalham direta ou indiretamente na proteção e no cuidado dos animais; 
+
+- Pessoas que desejam doar um animal: indivíduos que por algum motivo não tem condições de manter os cuidados primordiais do animal e que também não desejam abandoná-lo em vias públicas ou em abrigos.
+
