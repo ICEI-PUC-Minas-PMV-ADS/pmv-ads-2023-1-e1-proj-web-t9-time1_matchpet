@@ -1,23 +1,24 @@
-# TÍTULO DO PROJETO
+# MATCHPET 
 
-`CURSO`
+`CURSO: Análise e Desenvolvimento de Sistemas`
 
-`DISCIPLINA`
+`DISCIPLINA: Projeto: Desenvolvimento de Aplicação Web Front-End`
 
-`SEMESTRE`
+`1º semestre de 2023`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Página web para adoção de animais.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Bruno Nery da Silva
+* Gabriel Victor Miranda de Oliveira
+* Marcela Ratton Santos Silva
+* Renata Gonzaga Barbosa
+* Thiago Alexandre Ridolfi
 
 ## Orientador
 
-* Nome completo do professor 1
+* Marco Rodrigo Costa
 
 ## Instruções de utilização
 
