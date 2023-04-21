@@ -13,79 +13,85 @@ As personas criadas durante o processo de compreensão do problema estão aprese
 
 |Maria Lucia         | Informações:                       |                                        |
 |--------------------|----------------------------------|--------------------------------------|
-| ![persona2]() | **Idade:** 40 <br> **Ocupação:** Administradora, trabalha em uma ONG, sendo responsável por cuidar de animais que estão sob tutela da organização. |**Aplicativos:**<br>● Facebook  <br>● Instagram<br>● OLX   |
+| ![persona2](/src/persona2.jpg) | **Idade:** 40 <br> **Ocupação:** Administradora, trabalha em uma ONG, sendo responsável por cuidar de animais que estão sob tutela da organização. |**Aplicativos:**<br>● Facebook  <br>● Instagram<br>● OLX   |
 |**Motivações:**<br>● Ajudar animais em situação de abandono e/ou maus tratos a encontrarem tutores amorosos e responsáveis. |**Frustrações:**<br>● Dificuldade em encontrar tutores para os animais da ONG; <br>● Superlotação de animais na ONG. |**Hobbies, História:**<br>● Trabalhar em projetos filantrópicos; <br>● Passear no parque; <br>● Trekking.|
 
 |Juliana Freitas       | Informações:                       |                                        |
 |--------------------|----------------------------------|--------------------------------------|
 | ![persona3]() | **Idade:** 26 <br> **Ocupação:** Servidora pública aposentada. |**Aplicativos:**<br>● Facebook  <br>● Instagram<br>● Twitter    |
-|**Motivações:**<br>● Sempre desejou de ter um cachorro;<br>● Ter um cachorro para acompanhá-la em seu cotidiano. |**Frustrações:**<br>● Se sente sozinha; <br>● Filhos moram em outro Estado. |**Hobbies, História:**<br>● Viúva; <br>● Mora sozinha; <br>● Viaja a lazer com frequência. |
+|**Motivações:**<br>● Realizar o sonho de ter um gato;<br>● Ter a companhia de um pet para auxiliar no tratamento do Transtorno de Ansiedade Generalizada (TAG).  |**Frustrações:**<br>● Se sente sozinha; <br>● Sua família nunca permitiu que tivesse um gato. |**Hobbies, História:**<br>● Está em tratamento do TAG; <br>● Mora sozinha; <br>● Gosta de cozinhar e Ler. |
+
+|David Luiz        | Informações:                       |                                        |
+|--------------------|----------------------------------|--------------------------------------|
+| ![persona3]() | **Idade:** 32 <br> **Ocupação:**  Desenvolvedor de software. |**Aplicativos:**<br>● Facebook  <br>● Instagram<br>|
+|**Motivações:**<br>● Encontrar uma família para todos os filhotes de sua cadela. |**Frustrações:**<br>● A cadela teve cinco filhotes;<br>● Não tem condições de ficar com seis animais em sua casa.|**Hobbies, História:**<br>● Adotou uma cadela prenha e ferida que estava na rua de sua casa; <br>● Mora sozinha; <br>● Casou-se recentemente. |
 
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+A partir das personas, podemos registrar as seguintes histórias de usuário.  
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
+|EU COMO... `PERSONA`| QUERO/DESEJO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Cristina Fernanda   | Pesquisar animais disponíveis para adoção | Para obter informações sobre os animais antes de adotar ou visitar|
+|Cristina Fernanda   | Localizar animais por região | Para encontrar animais perto da minha localização |
+|Juliana Freitas     | Entrar em contato com os responsáveis pelos animais disponíveis | Para tirar dúvidas e agendar visitas |
+|Maria Lucia         | Cadastrar meu abrigo no sistema, incluindo informações como espécie, raça, sexo, porte, telefone e endereço do abrigo| Para que os interessados em adotar tenham o máximo de informações possíveis sobre o animal |
+|Maria Lucia         | Receber notificações de um possível adotante | Para entrar em contato com o adotante  |
+|Maria Lucia         | Fazer perguntas pessoais ao adotante, abordando assuntos como, moradia, profissão e motivo da adoção | Para verificar a compatibilidade do adotante com os animais disponíveis |
+|Juliana Freitas     | Visualizar informações detalhadas sobre os animais disponíveis como histórico de saúde, fotos dos animais e comportamento | Para verificar se há condições de cuidar do animal de maneira adequada |
+|David Luiz          | Cadastrar animais sob minha tutela | Para encontrar potenciais adotantes  |
+|David Luiz          | Ser informado quando algum possível adotante demonstrar interesse pelo animal | Para entrar em contato com o interessado em adotar  |
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+## Requisitos do Projeto
 
-## Requisitos
-
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
+Os requisitos que descrevem as opções de interação dos usuários e as características gerais do sistema são apresentados a seguir. Estes definem o escopo funcional do projeto, abrangendo tanto os requisitos funcionais quanto os não funcionais. 
 
 ### Requisitos Funcionais
 
+Na Tabela abaixo estão expostos os requisitos funcionais que o site deve atender. 
+
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| O site deve apresentar uma página inicial exibindo botão de cadastro de usuários, login do usuário, menu, filtros de animais e uma lista de animais disponíveis para adoção. | ALTA | 
+|RF-002| O site deve exibir uma página do menu “Quem somos”. | BAIXA |
+|RF-003| O site deve permitir realizar filtros de espécie, sexo, porte, estado e cidade. | MÉDIA | 
+|RF-004| A lista de animais disponíveis deve conter imagem do animal, nome, cidade e estado. | MÉDIA |
+|RF-005| Ao selecionar um animal da lista, o site deve exibir uma página de perfil do animal. | ALTA | 
+|RF-006| A página de perfil do animal deve conter todos os dados cadastrados do pet e os dados para contato do responsável. | ALTA |
+|RF-007| O site deve exibir uma página para login ao clicar no botão “Entrar”. | ALTA | 
+|RF-008| O site deve exibir uma página para cadastro do usuário ao clicar no botão “Cadastre-se”. | ALTA |
+|RF-009| No perfil do usuário deve exibir um menu de cadastro de animais. | ALTA | 
+|RF-010| No menu de cadastro de animais deve permitir o cadastro das seguintes informações espécie, nome, sexo, porte, idade, características do animal, história, cuidados específicos, observações sobre os pré-requisitos para a adoção, estado, cidade e check-box para animais adotados. | ALTA |
+|RF-011| O site deve permitir que os usuários façam manutenção de seu cadastro. | ALTA | 
+|RF-012| O site deve permitir que o usuários façam a manutenção dos cadastros dos animais para adoção. | MÉDIA |
+|RF-013| O site deve permitir a recuperação de senhas por meio do e-mail cadastrado. | ALTA | 
+|RF-014| O site deve retirar da lista de animais disponíveis para adoção os animais que forem marcados como adotados. | MÉDIA |
 
 
 ### Requisitos não Funcionais
 
+Os requisitos não funcionais foram descritos na tabela abaixo. 
+
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-001| O site deve ser publicado em um ambiente acessível expostas às publicamente na Internet (Repl.it, GitHub Pages, Heroku). | ALTA | 
+|RNF-002| O site deve ser fácil de usar, com interface intuitiva.  |  MÉDIA |
+|RNF-003| O site deve ser acessível a partir de dispositivos móveis (tablets, celulares).  | ALTA | 
+|RNF-004| O site estar disponível 24 horas por dia, 7 dias por semana. |  ALTA |
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 ## Restrições
 
-O projeto está restrito pelos itens apresentados na tabela a seguir.
+Na tabela abaixo são expostas às restrições que restringem a realização do plano e que devem ser cumpridas para o êxito do projeto.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|RE-01| O projeto deve ser concluído no prazo estipulado, sem qualquer atraso. |
+|RE-02| O sistema deve ser desenvolvido utilizando tecnologias básicas da Web no Front-end. |
+|RE-03| O sistema deve ser desenvolvido em português para atingir o público-alvo brasileiro. |
+|RE-04| A equipe responsável pelo desenvolvimento do sistema deve ser o Time 01 da disciplina de Projeto: Desenvolvimento da aplicação Web Front-End. |
+|RE-05| O sistema não deve ser utilizado para promover a venda ou comércio de animais, apenas a adoção responsável. |
+|RE-06| O sistema deve estar consoante às regras da disciplina. |
 
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
