@@ -1,15 +1,11 @@
 
 # Metodologia
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
+A metodologia utilizada neste projeto, abrange a descrição do conjunto de ferramentas empregadas pela equipe para manter os códigos e outros elementos do projeto, bem como para gerenciar o trabalho em equipe durante a execução das tarefas. 
 
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
+## Relação de Ambientes de Trabalho 
 
-## Controle de Versão
-
-A ferramenta de controle de versão adotada no projeto foi o
-[Git](https://git-scm.com/), sendo que o [Github](https://github.com)
-foi utilizado para hospedagem do repositório.
+O desenvolvimento do projeto foi realizado utilizando as plataformas listadas na tabela abaixo.
 
 O projeto segue a seguinte convenção para o nome de branches:
 
@@ -18,60 +14,43 @@ O projeto segue a seguinte convenção para o nome de branches:
 - `testing`: versão em testes do software
 - `dev`: versão de desenvolvimento do software
 
-Quanto à gerência de issues, o projeto adota a seguinte convenção para
-etiquetas:
+| AMBIENTE                         | PLATAFORMA   | LINK DE ACESSO |
+|----------------------------------|--------------|----------------|
+|Repositório de Código Fonte       | GitHub       | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t9-time1_matchpet |
+|Documento do Projeto              | Microsoft 365 | https://www.microsoft365.com/mycontent?auth=2&home=1&section=recentdocs|
+|Projeto de Interface e Wireframes | MarvelApp, google drawings | https://marvelapp.com/prototype/jce6iia/screen/91350215 |
+|Gerenciamento do Projeto          | Trello | https://trello.com/b/SSVliHV5/matchpet |
 
-- `documentation`: melhorias ou acréscimos à documentação
-- `bug`: uma funcionalidade encontra-se com problemas
-- `enhancement`: uma funcionalidade precisa ser melhorada
-- `feature`: uma nova funcionalidade precisa ser introduzida
+## Gerenciamento do Projeto
 
-Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
-
-> **Links Úteis**:
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
->  - [Comparando fluxos de trabalho](https://www.atlassian.com/br/git/tutorials/comparing-workflows)
-> - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
-> - [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs)
-
-## Gerenciamento de Projeto
+A equipe utilizará uma metodologia de gerenciamento de projeto para garantir a efetividade das atividades, promover a colaboração e maximizar a entrega de valor. A abordagem ágil é a que mais se adequa para o desenvolvimento, com o Scrum selecionado como estrutura principal para a definição do processo.  
 
 ### Divisão de Papéis
 
-Apresente a divisão de papéis entre os membros do grupo.
+A disposição da equipe é a seguinte: 
 
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu 
-> Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
-
+- Scrum Master: Marcela Ratton 
+- Product Owner: Bruno Nery  
+- Equipe de Desenvolvimento
+  - Bruno Nery 
+  - Gabriel Victor
+  - Renata Gonzaga  
+  - Marcela Ratton 
+  - Thiago Alexandre 
+- Equipe de Design 
+  - Bruno Nery 
+  - Gabriel Victor
+  - Renata Gonzaga  
+  - Marcela Ratton 
+  - Thiago Alexandre 
+  
 ### Processo
 
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
+Para gerenciar e distribuir as tarefas do projeto, a equipe está utilizando a ferramenta Trello, estruturado com as seguintes listas: 
  
-> **Links Úteis**:
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+ - Backlog: as tarefas a serem realizadas e todas as atividades identificadas ao longo do projeto são adicionadas à lista do Product Backlog.
+ - To Do: a lista indica o Sprint Backlog em andamento, ou seja, as atividades executadas neste momento.
+ - Doing: tarefas iniciadas são transferidas para este local. 
+ - Done: os itens desta lista passaram por verificações, preferencialmente por outra pessoa que não aquele que fez a tarefa. Depois de aprovados, estão aptos para serem entregues. Não há mais modificações ou revisões pendentes.
 
-### Ferramentas
-
-As ferramentas empregadas no projeto são:
-
-- Editor de código.
-- Ferramentas de comunicação
-- Ferramentas de desenho de tela (_wireframing_)
-
-O editor de código foi escolhido porque ele possui uma integração com o
-sistema de versão. As ferramentas de comunicação utilizadas possuem
-integração semelhante e por isso foram selecionadas. Por fim, para criar
-diagramas utilizamos essa ferramenta por melhor captar as
-necessidades da nossa solução.
-
-Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
- 
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [Slack](https://slack.com/)
-> - [Github](https://github.com/)
+O quadro kanban do grupo desenvolvido na ferramenta de gerenciamento de projetos está disponível através da URL https://trello.com/b/SSVliHV5/matchpet e é apresentado, no estado atual, na Figura 1.  
