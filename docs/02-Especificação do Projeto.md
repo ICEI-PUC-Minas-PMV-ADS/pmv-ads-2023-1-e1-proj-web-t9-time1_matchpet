@@ -18,12 +18,12 @@ As personas criadas durante o processo de compreensão do problema estão aprese
 
 |Juliana Freitas       | Informações:                       |                                        |
 |--------------------|----------------------------------|--------------------------------------|
-| ![persona3]() | **Idade:** 26 <br> **Ocupação:** Servidora pública aposentada. |**Aplicativos:**<br>● Facebook  <br>● Instagram<br>● Twitter    |
+| ![persona3](/src/persona3.jpeg) | **Idade:** 26 <br> **Ocupação:** Servidora pública aposentada. |**Aplicativos:**<br>● Facebook  <br>● Instagram<br>● Twitter    |
 |**Motivações:**<br>● Realizar o sonho de ter um gato;<br>● Ter a companhia de um pet para auxiliar no tratamento do Transtorno de Ansiedade Generalizada (TAG).  |**Frustrações:**<br>● Se sente sozinha; <br>● Sua família nunca permitiu que tivesse um gato. |**Hobbies, História:**<br>● Está em tratamento do TAG; <br>● Mora sozinha; <br>● Gosta de cozinhar e Ler. |
 
 |David Luiz        | Informações:                       |                                        |
 |--------------------|----------------------------------|--------------------------------------|
-| ![persona3]() | **Idade:** 32 <br> **Ocupação:**  Desenvolvedor de software. |**Aplicativos:**<br>● Facebook  <br>● Instagram<br>|
+| ![persona4](/src/persona4.png) | **Idade:** 32 <br> **Ocupação:**  Desenvolvedor de software. |**Aplicativos:**<br>● Facebook  <br>● Instagram<br>|
 |**Motivações:**<br>● Encontrar uma família para todos os filhotes de sua cadela. |**Frustrações:**<br>● A cadela teve cinco filhotes;<br>● Não tem condições de ficar com seis animais em sua casa.|**Hobbies, História:**<br>● Adotou uma cadela prenha e ferida que estava na rua de sua casa; <br>● Mora sozinha; <br>● Casou-se recentemente. |
 
 
