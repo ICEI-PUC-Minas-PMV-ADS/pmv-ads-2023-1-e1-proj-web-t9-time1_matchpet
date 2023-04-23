@@ -7,24 +7,24 @@ Dentre as preocupações para a montagem da interface do sistema, estamos estabe
 
 O diagrama apresentado na Figura 1 mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Wireframes que se segue. Para visualizar o Wireframes interativo, acesse https://marvelapp.com/prototype/jce6iia/screen/91350215. 
 
-![Exemplo de UserFlow](img/userflow.jpg)
-Figura 1 - Fluxo de telas do usuário   
+![UserFlow](/src/FluxoUser.png)
+<center>Figura 1 - Fluxo de telas do usuário </center> 
 
 ## Wireframes
 
 Conforme fluxo de telas do projeto, apresentado no item anterior, as telas do sistema são apresentadas em detalhes nos itens que se seguem. As telas do sistema apresentam uma estrutura comum que é apresentada na Figura X. Nesta estrutura, existem 2 grandes blocos, descritos a seguir. São eles: 
  - Cabeçalho - local onde são dispostos elementos fixos de identidade (logo) e navegação principal do site (menu da aplicação); 
  - Conteúdo - apresenta o conteúdo da tela em questão. 
-![Exemplo de Wireframe](img/wireframe-example.png)
-Figura 2 - Estrutura padrão do site 
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
+ - 
+![Wireframe estrutura padrão 1](/src/tela1.PNG)
+<center>Figura 2 - Estrutura padrão do site </center> 
  
 ## Tela - Home-Page 
 
 A tela de home-Page mostra notícias e dicas sobre adoções e sobre alguns pets disponíveis além de botões que direcionam para outra telas. 
 
-![Exemplo de Wireframe](img/wireframe-example.png)
-Figura 3 - Tela Inicial - Notícias e informações 
+![Home page](/src/HomePage.PNG)
+<center>Figura 3 - Tela Inicial - Notícias e informações</center> 
 
 ## Tela - Quem somos 
 
