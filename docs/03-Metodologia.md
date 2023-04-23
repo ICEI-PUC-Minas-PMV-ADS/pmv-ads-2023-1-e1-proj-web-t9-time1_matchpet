@@ -50,4 +50,4 @@ O quadro kanban do grupo desenvolvido na ferramenta de gerenciamento de projetos
 
 ![trello-img.PNG](/src/trello-img.PNG)
 
-(center)Figura 1 - Tela do kanban utilizada pelo grupo (/center)
+<center>Figura 1 - Tela do kanban utilizada pelo grupo </center>
