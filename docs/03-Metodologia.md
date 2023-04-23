@@ -7,13 +7,6 @@ A metodologia utilizada neste projeto, abrange a descrição do conjunto de ferr
 
 O desenvolvimento do projeto foi realizado utilizando as plataformas listadas na tabela abaixo.
 
-O projeto segue a seguinte convenção para o nome de branches:
-
-- `main`: versão estável já testada do software
-- `unstable`: versão já testada do software, porém instável
-- `testing`: versão em testes do software
-- `dev`: versão de desenvolvimento do software
-
 | AMBIENTE                         | PLATAFORMA   | LINK DE ACESSO |
 |----------------------------------|--------------|----------------|
 |Repositório de Código Fonte       | GitHub       | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t9-time1_matchpet |
@@ -54,3 +47,7 @@ Para gerenciar e distribuir as tarefas do projeto, a equipe está utilizando a f
  - Done: os itens desta lista passaram por verificações, preferencialmente por outra pessoa que não aquele que fez a tarefa. Depois de aprovados, estão aptos para serem entregues. Não há mais modificações ou revisões pendentes.
 
 O quadro kanban do grupo desenvolvido na ferramenta de gerenciamento de projetos está disponível através da URL https://trello.com/b/SSVliHV5/matchpet e é apresentado, no estado atual, na Figura 1.  
+
+![trello-img.PNG](/src/trello-img.PNG)
+
+(center)Figura 1 - Tela do kanban utilizada pelo grupo (/center)
