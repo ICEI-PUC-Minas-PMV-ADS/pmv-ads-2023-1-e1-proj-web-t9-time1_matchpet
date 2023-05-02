@@ -8,22 +8,22 @@ As personas criadas durante o processo de compreensão do problema estão aprese
 
 |Cristina Fernanda      | Informações:                       |                                        |
 |--------------------|----------------------------------|--------------------------------------|
-| ![persona1](/src/persona1.jpg) | **Idade:** 65 <br> **Ocupação:** Servidora pública aposentada. |**Aplicativos:**<br>● Facebook  <br>● Instagram<br>● WhatsApp   |
+| ![persona1](/src/imagens/persona1.jpg) | **Idade:** 65 <br> **Ocupação:** Servidora pública aposentada. |**Aplicativos:**<br>● Facebook  <br>● Instagram<br>● WhatsApp   |
 |**Motivações:**<br>● Sempre desejou de ter um cachorro;<br>● Ter um cachorro para acompanhá-la em seu cotidiano. |**Frustrações:**<br>● Se sente sozinha; <br>● Filhos moram em outro Estado. |**Hobbies, História:**<br>● Viúva; <br>● Mora sozinha; <br>● Viaja a lazer com frequência. |
 
 |Maria Lucia         | Informações:                       |                                        |
 |--------------------|----------------------------------|--------------------------------------|
-| ![persona2](/src/persona2.jpg) | **Idade:** 40 <br> **Ocupação:** Administradora, trabalha em uma ONG, sendo responsável por cuidar de animais que estão sob tutela da organização. |**Aplicativos:**<br>● Facebook  <br>● Instagram<br>● OLX   |
+| ![persona2](/src/imagens/persona2.jpg) | **Idade:** 40 <br> **Ocupação:** Administradora, trabalha em uma ONG, sendo responsável por cuidar de animais que estão sob tutela da organização. |**Aplicativos:**<br>● Facebook  <br>● Instagram<br>● OLX   |
 |**Motivações:**<br>● Ajudar animais em situação de abandono e/ou maus tratos a encontrarem tutores amorosos e responsáveis. |**Frustrações:**<br>● Dificuldade em encontrar tutores para os animais da ONG; <br>● Superlotação de animais na ONG. |**Hobbies, História:**<br>● Trabalhar em projetos filantrópicos; <br>● Passear no parque; <br>● Trekking.|
 
 |Juliana Freitas       | Informações:                       |                                        |
 |--------------------|----------------------------------|--------------------------------------|
-| ![persona3](/src/persona3.jpeg) | **Idade:** 26 <br> **Ocupação:** Servidora pública aposentada. |**Aplicativos:**<br>● Facebook  <br>● Instagram<br>● Twitter    |
+| ![persona3](/src/imagens/persona3.jpeg) | **Idade:** 26 <br> **Ocupação:** Servidora pública aposentada. |**Aplicativos:**<br>● Facebook  <br>● Instagram<br>● Twitter    |
 |**Motivações:**<br>● Realizar o sonho de ter um gato;<br>● Ter a companhia de um pet para auxiliar no tratamento do Transtorno de Ansiedade Generalizada (TAG).  |**Frustrações:**<br>● Se sente sozinha; <br>● Sua família nunca permitiu que tivesse um gato. |**Hobbies, História:**<br>● Está em tratamento do TAG; <br>● Mora sozinha; <br>● Gosta de cozinhar e Ler. |
 
 |David Luiz        | Informações:                       |                                        |
 |--------------------|----------------------------------|--------------------------------------|
-| ![persona4](/src/persona4.png) | **Idade:** 32 <br> **Ocupação:**  Desenvolvedor de software. |**Aplicativos:**<br>● Facebook  <br>● Instagram<br>|
+| ![persona4](/src/imagens/persona4.png) | **Idade:** 32 <br> **Ocupação:**  Desenvolvedor de software. |**Aplicativos:**<br>● Facebook  <br>● Instagram<br>|
 |**Motivações:**<br>● Encontrar uma família para todos os filhotes de sua cadela. |**Frustrações:**<br>● A cadela teve cinco filhotes;<br>● Não tem condições de ficar com seis animais em sua casa.|**Hobbies, História:**<br>● Adotou uma cadela prenha e ferida que estava na rua de sua casa; <br>● Mora sozinha; <br>● Casou-se recentemente. |
 
 

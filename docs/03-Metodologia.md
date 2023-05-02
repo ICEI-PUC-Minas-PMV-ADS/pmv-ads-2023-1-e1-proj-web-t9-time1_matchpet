@@ -48,6 +48,6 @@ Para gerenciar e distribuir as tarefas do projeto, a equipe está utilizando a f
 
 O quadro kanban do grupo desenvolvido na ferramenta de gerenciamento de projetos está disponível através da URL https://trello.com/b/SSVliHV5/matchpet e é apresentado, no estado atual, na Figura 1.  
 
-![trello-img.PNG](/src/trello-img.PNG)
+![trello-img.PNG](/src/imagens/trello-img.PNG)
 
 <center>Figura 1 - Tela do kanban utilizada pelo grupo </center>

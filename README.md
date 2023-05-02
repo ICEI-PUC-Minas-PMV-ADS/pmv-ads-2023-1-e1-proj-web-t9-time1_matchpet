@@ -1,6 +1,6 @@
 # 
 
-![Logo3](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t9-time1_matchpet/blob/main/src/logo-matchpet.png)
+![Logo3](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t9-time1_matchpet/blob/main/src/imagens/logo-matchpet.png)
 
 <br>
 
@@ -18,7 +18,6 @@ Página web para adoção de animais.
 * Gabriel Victor Miranda de Oliveira
 * Marcela Ratton Santos Silva
 * Renata Gonzaga Barbosa
-* Thiago Alexandre Ridolfi
 
 ## Orientador
 
