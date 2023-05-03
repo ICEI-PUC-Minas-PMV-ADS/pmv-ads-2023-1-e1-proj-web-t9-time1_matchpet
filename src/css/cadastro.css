@@ -51,12 +51,12 @@ body {
     margin-bottom: 3rem;
 }
 
-.login-button {/* cor do botão */
+.home-button {/* cor do botão */
     display: flex;
     align-items: center;
 }
 
-.login-button button {/* cor do botão */
+.home-button button {/* cor do botão */
     border: none;
     background-color: pink;
     padding: 0.4rem 1rem;
@@ -64,11 +64,11 @@ body {
     cursor: pointer;
 }
 
-.login-button button:hover {/* cor do botão ao passar o mouse */
+.home-button button:hover {/* cor do botão ao passar o mouse */
     background-color: rgb(255, 212, 220);    
 }
 
-.login-button button a {/* cor do texto do botão */
+.home-button button a {/* cor do texto do botão */
     text-decoration: none;
     color: #fff;
     font-weight: 500;    
