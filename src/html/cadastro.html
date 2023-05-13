@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Formulário de cadastro</title>
-        <link rel="stylesheet" href="../css/cadastro.css">
+        <link rel="stylesheet" href="../css/cadastro.css">        
     </head>
  <body>    
         <div class="container">
@@ -18,8 +18,8 @@
                         <div class="title">
                             <h1>Cadastre - se</h1>
                         </div>
-                        <div class="login-button">
-                            <button><a href="#">Entrar</a></button>
+                        <div class="home-button">
+                            <button><a href="../index.html">Voltar para Home</a></button>
                         </div>    
                     </div>
 
@@ -41,12 +41,12 @@
 
                         <div class="input-box">
                             <label for="number">Celular</label>
-                            <input id="number" type="tel" name="number" placeholder="(xx) xxxxx - xxxx" required>
+                            <input id="number" type="tel" pattern="[0-9]{2}\s[0-9]{5}-[0-9]{4}" name="number" placeholder="xx xxxxx-xxxx" required>
                         </div> 
                         <!--é necessário deixar o cpf?-->
                         <div class="input-box">
                             <label for="cpf">CPF</label>
-                            <input id="cpf" type="cpf" name="cpf"  placeholder="000.000.000-00" maxlength="11" required>
+                            <input id="cpf" type="cpf" name="cpf"  pattern="[0-9]{3}.[0-9]{3}.[0-9]{3}-[0-9]{2}" placeholder="000.000.000-00" required>
                         </div> 
 
                         <div class="input-box">
@@ -56,7 +56,7 @@
 
                         <div class="input-box">
                             <label for="Confirmpassword">Confirme sua senha</label>
-                            <input id="Confirmpassword" type="Confirmpassword" name="Confirmpassword" placeholder="Confirme a sua senha" required>
+                            <input id="password" type="password" name="password" placeholder="Confirme a sua senha" required>
                         </div> 
                         
                     </div>
@@ -97,7 +97,7 @@
                     </div>
 
                     <div class="continue-button">
-                        <button><a href="#">Continuar</a></button>
+                        <button><a href="#">Finalizar</a></button>
                     </div>
                 </form>
             </div>
