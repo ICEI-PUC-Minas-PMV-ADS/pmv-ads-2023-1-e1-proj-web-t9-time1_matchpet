@@ -6,7 +6,7 @@
     margin: 0;
 }
 body {
-    font-family: 'Roboto', sem serifa;
+    font-family: 'Roboto', sans-serif;
 }
 
 a {
@@ -27,7 +27,7 @@ a {
 
 .btn:hover {
     cursor: pointer;
-    background: #000;
+    background: #ff1493;
 }
 
 .headline {
@@ -42,10 +42,9 @@ a {
 /* Navbar */
 #navbar {
     width: 100%;
-    background: #111;
-    color: #eee;
-    height: 80px;
-    position: fixed;
+    background: #ff1493;
+    color: #fff;
+    height: 58px;
 }
 
 /* Elemento "filho" do navbar
@@ -53,7 +52,7 @@ colocar margin auto coloca o elemento automaticamente no centro
 display flex coloca o elemento em linha 
 space-between justifica um espaco entre o pai e filho*/
 #navbar-container {
-    width: 80%;
+    width: 98%;
     height: 100%;
     margin: auto;
     display: flex;
@@ -80,16 +79,12 @@ VH - A medida vh e igual a 1/100 da altura da viewport.
 Entao, por exemplo, se a altura do navegador e 900px , 1vh equivale a 9px . 
 E, analogamente, se a largura da viewport e 750px , 1vw equivale a 7.5px */
 #showcase {
-    height: 100vh;
+    height: 91vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #eee;
-    background: url(/img/showcase.jpg) no-repeat center/cover;
-
-    /* Overlay */
-    background-color: rgba(0,0,0,0.5);
-    background-blend-mode: color;
+    justify-content: right;
+    align-items: last baseline;
+    color: #111;
+    background: url(/imagens/imagem_showcase.jpg) no-repeat center/cover;
 }
 
 #showcase-container {
@@ -103,38 +98,19 @@ E, analogamente, se a largura da viewport e 750px , 1vw equivale a 7.5px */
     padding-bottom: 7px 0;
 }
 
-/* Clientes */
-#clients {
-    width: 100%;
-    background: #eee;
-    color: #111;
-    padding: 50px;
-}
-/* display grid ele informa no numero de colunas o numero de fracao que o item ocupa. Ex 25% da div.  */
-#clients-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    justify-items: center;
-    padding: 15px;
-}
-
-.client {
-    display: inline-block;
-    width: 25%;
-}
-
-/* About */
+/* About x
 #features {
     width: 100%;
-    background: #eee;
+    background: #ff1493;
+    color: #fff;
     padding: 50px;
 }
-#features-container {
+#feature-container {
     width: 100%;
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 50px;
+    grid-template-columns: repeat(3, 1.2fr);
+    grid-column-gap: 25px;
 }
 
 .feature {
@@ -149,10 +125,12 @@ E, analogamente, se a largura da viewport e 750px , 1vw equivale a 7.5px */
     font-size: 1.5rem;
     font-weight: bold;    
 }
-
+*/
 /* Product */
 #product {
     width: 100%;
+    background: #ff1493;
+    color: #fff;
     padding: 50px;
 }
 
@@ -173,12 +151,33 @@ E, analogamente, se a largura da viewport e 750px , 1vw equivale a 7.5px */
     font-size: 1.2rem;
 }
 
+/* Clientes */
+#clients {
+    display: inline-block;
+    width: 100%;
+    background: #fff;
+    color: #111;
+    padding: 50px;
+}
+/* display grid ele informa no numero de colunas o numero de fracao que o item ocupa. Ex 25% da div.  */
+#clients-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    padding: 15px;
+}
+
+.clients {
+    display: inline-block;
+    width: 40%;
+}
+
 /* Testimonials */
-#testimonial {
+.testimonial {
     display: flex;
     align-items: center;
     font-size: 1.2rem;
-    background: #333;
+    background: #FFB6C1;
     padding: 15px;
     margin: 15px 0;
     border-radius: 5px;
@@ -186,8 +185,8 @@ E, analogamente, se a largura da viewport e 750px , 1vw equivale a 7.5px */
 
 #testimonials {
     width: 100%;
-    background: #222;
-    color: #eee;
+    background: #ff1493;
+    color: #000;
     padding: 50px;
 }
 
@@ -205,7 +204,7 @@ E, analogamente, se a largura da viewport e 750px , 1vw equivale a 7.5px */
     margin: 15px;
 }
 
-/* Gallery */
+/* Gallery 
 #gallery {
     width: 90%;
     margin: auto;
@@ -225,11 +224,12 @@ E, analogamente, se a largura da viewport e 750px , 1vw equivale a 7.5px */
     height: 360px;
     border-radius: 5px;
 }
+*/
 
 /* Footer */
 #footer {
-    background: #222;
-    color: #eee;
-    padding: 30px;
+    background: #fff;
+    color: #000;
+    padding: 40px;
     text-align: center;
 }
