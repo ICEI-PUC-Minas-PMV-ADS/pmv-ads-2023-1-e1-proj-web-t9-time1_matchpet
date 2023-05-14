@@ -15,7 +15,7 @@ O template desenvolvido para este projeto está disponível no site  https://git
 
 Tela composta pelas visualizações iniciais do site. 
 
-![Home page](/src/imagens/)
+![Home page](/src/imagens/tela-principal.jpeg)
 <center> Figura 1 - Tela principal </center> 
 
 ## Tela – Cadastro 
@@ -29,5 +29,5 @@ Este layout é utilizado para o cadastro de usuário.
 
 Layout da tela de perfil do pet. 
 
-![Tela de Cadastro](/src/imagens/)
+![Tela de Cadastro](/src/imagens/tela-perfil-pet.jpeg)
 <center> Figura 3 - Tela de perfil do pet </center> 
