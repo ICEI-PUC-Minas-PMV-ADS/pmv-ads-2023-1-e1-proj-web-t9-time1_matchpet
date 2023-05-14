@@ -8,16 +8,27 @@
 #navbar-items {
     flex-direction: column;
     text-align: center;
+    width: 100%;
 }
 #navbar-items li:nth-child(2) {
     border-top: 1px solid #333;
     border-bottom: 1px solid #333;
 }
+#navbar-items li:nth-child(3) {
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+}
 
 #showcase-container {
-    padding: 20px;
+    padding: 40px;
 }
-#client {
+#showcase-container {
+    width: 90%;
+}
+#clients-container{
+    grid-template-columns: repeat(2, 1fr);
+}
+.client {
     width: 50%;
 }
 
