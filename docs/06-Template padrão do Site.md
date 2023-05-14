@@ -1,12 +1,33 @@
 # Template padrão do site
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>
+O layout do site corresponde ao projeto de Interface desenvolvido, conforme ilustrado na Figura 2. 
 
-Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
+![Estrutura padrão](/src/imagens/tela1.PNG)
+<center> Figura 2 - Estrutura padrão do site </center>
 
-> **Links Úteis**:
->
-> - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
-> - [Website Page Layouts](http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/website-page-layouts/)
-> - [Perfect Liquid Layout](https://matthewjamestaylor.com/perfect-liquid-layouts)
-> - [How and Why Icons Improve Your Web Design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
+O template desenvolvido para este projeto está disponível no site  https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t9-time1_matchpet/tree/main e é composto pelos seguintes layouts:
+
+ - Tela principal 
+ - Cadastro  
+ - Perfil do pet 
+
+## Tela Principal 
+
+Tela composta pelas visualizações iniciais do site. 
+
+![Home page](/src/imagens/)
+<center> Figura 1 - Tela principal </center> 
+
+## Tela – Cadastro 
+
+Este layout é utilizado para o cadastro de usuário.  
+
+![Tela de Cadastro](/src/imagens/tela-cadastro-01.PNG)
+<center> Figura 2 - Tela de Cadastro </center> 
+
+## Tela - Perfil do pet 
+
+Layout da tela de perfil do pet. 
+
+![Tela de Cadastro](/src/imagens/)
+<center> Figura 3 - Tela de perfil do pet </center> 
