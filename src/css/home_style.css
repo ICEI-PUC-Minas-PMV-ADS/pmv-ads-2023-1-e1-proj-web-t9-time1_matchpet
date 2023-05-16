@@ -44,7 +44,8 @@ a {
     width: 100%;
     background: #ff1493;
     color: #fff;
-    height: 58px;
+    height: 70px;
+    position: fixed;
 }
 
 /* Elemento "filho" do navbar
@@ -79,7 +80,7 @@ VH - A medida vh e igual a 1/100 da altura da viewport.
 Entao, por exemplo, se a altura do navegador e 900px , 1vh equivale a 9px . 
 E, analogamente, se a largura da viewport e 750px , 1vw equivale a 7.5px */
 #showcase {
-    height: 91vh;
+    height: 100vh;
     display: flex;
     justify-content: right;
     align-items: last baseline;
@@ -129,9 +130,15 @@ E, analogamente, se a largura da viewport e 750px , 1vw equivale a 7.5px */
 /* Product */
 #product {
     width: 100%;
-    background: #ff1493;
+    background: #4C5270;
     color: #fff;
     padding: 50px;
+}
+.product.iphone-x {
+    height: 200px;
+    width: auto;
+    border-radius: 50%;
+    margin: 15px;
 }
 
 #product-container {
@@ -142,6 +149,7 @@ E, analogamente, se a largura da viewport e 750px , 1vw equivale a 7.5px */
 
 #items {
     width: 650px;
+    
 }
 
 #items .item {
@@ -176,8 +184,8 @@ E, analogamente, se a largura da viewport e 750px , 1vw equivale a 7.5px */
 .testimonial {
     display: flex;
     align-items: center;
-    font-size: 1.2rem;
-    background: #FFB6C1;
+    font-size: 1.2 rem;
+    background: #333652;
     padding: 15px;
     margin: 15px 0;
     border-radius: 5px;
@@ -185,8 +193,8 @@ E, analogamente, se a largura da viewport e 750px , 1vw equivale a 7.5px */
 
 #testimonials {
     width: 100%;
-    background: #ff1493;
-    color: #000;
+    background: #4C5270;
+    color: #fff;
     padding: 50px;
 }
 
@@ -228,8 +236,8 @@ E, analogamente, se a largura da viewport e 750px , 1vw equivale a 7.5px */
 
 /* Footer */
 #footer {
-    background: #fff;
-    color: #000;
+    background: #ff1493;
+    color: #fff;
     padding: 40px;
     text-align: center;
 }
