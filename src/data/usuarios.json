@@ -1,0 +1,26 @@
+{
+    "data":[
+        {
+            "id": "1",
+            "firstname": "Joao",
+            "lastname": "Peres",
+            "username": "jperes",
+            "email": "jperes@nomail.com",
+            "number": "73 12345-1234",
+            "cpf": "12.345.678-90",
+            "password": "159357",
+            "petAction": "adotar"
+        },
+        {
+            "id": "2",
+            "firstname": "Alfredo",
+            "lastname": "batata",
+            "username": "alfiebatata",
+            "email": "alfiebatata@hotmail.com",	
+            "number": "73 12345-1235",
+            "cpf": "022.944.122-03",
+            "password": "159357",
+            "petAction": "doar"
+        }    
+    ]   
+}

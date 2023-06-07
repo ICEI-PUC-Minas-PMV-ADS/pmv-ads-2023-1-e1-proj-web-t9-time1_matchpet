@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family= Roboto :wght@300 & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 * {
     padding: 0;
     margin: 0;    
@@ -8,14 +8,63 @@
 /*cor do fundo */
 body {
     width: 100%;
-    height: 100vh;
+    height: 105vh;
     display: flex;
     justify-content: center;
     align-items: center;    
-    background: #f8e5ec;
+    background: #fff;    
 }
 
-.container {/*cor do fundo do container */
+.navbar a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Navbar */
+#navbar {
+    width: 100%;
+    background: rgb(237, 18, 86);
+    color: #fff;
+    height: 60px;
+    position: fixed;
+    top: 0;
+}
+
+/* Elemento "filho" do navbar*/
+#navbar-container a, ul {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Elemento "filho" do navbar
+colocar margin auto coloca o elemento automaticamente no centro
+display flex coloca o elemento em linha 
+space-between justifica um espaco entre o pai e filho*/
+#navbar-container {
+    width: 98%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 2rem;
+}
+
+#navbar-items {
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+#navbar-items li{
+    padding: 10px;
+}
+
+.container {
+    margin-bottom: 40px;
     width: 80%;    
     height: 80vh;   
     display: flex;
@@ -27,7 +76,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #fff4dbd7;
+    background-color: #f8e5ec;
     padding: 1rem;
 }
 
@@ -51,21 +100,21 @@ body {
     margin-bottom: 3rem;
 }
 
-.home-button {/* cor do botão */
+.home-button {/* botão */
     display: flex;
     align-items: center;
 }
 
 .home-button button {/* cor do botão */
     border: none;
-    background-color: pink;
+    background-color: rgb(237, 18, 86);
     padding: 0.4rem 1rem;
     border-radius: 5px;
     cursor: pointer;
 }
 
 .home-button button:hover {/* cor do botão ao passar o mouse */
-    background-color: rgb(255, 212, 220);    
+    background-color: rgb(237, 18, 86);    
 }
 
 .home-button button a {/* cor do texto do botão */
@@ -79,7 +128,7 @@ body {
     display: block;
     width: 5rem;
     height: 0.3rem;
-    background-color: rgb(255, 212, 220);
+    background-color: rgb(237, 18, 86);
     margin: 0 auto;
     position: absolute;
     border-radius: 10px;
@@ -111,46 +160,39 @@ body {
 }
 
 .input-box input:focus-visible {
-    outline: 1px solid pink;  /*cor da borda */ 
+    outline: 1px solid rgb(237, 18, 86);;  /*cor da borda */ 
 }
-.input-box label,/*cor do texto do input nome, etc...*/
-.gender-title h6 {
+
+.input-box label {/*cor do texto do input nome, etc...*/
     font-size: 0.75rem;
     font-weight: 600;
-    color: #000000c0 ;
+    color: #000000c0;
 }
 
 .input-box input::placeholder {/*cor do texto do input */
     color: #000000be;
 }
 
-.gender-group {/*cor do fundo do input genero */
+.label-select {/*cor do fundo do input  */
     display: flex;
     justify-content: space-between;
     margin-top: 0.62rem;
     padding: 0 0.5rem;
 }
 
-.gender-inputs {
+.option {
     display: flex;
-    align-items: center;
-}
-
-.gender-input input{/*espaçamento entre a bolinha e o texto */
-    margin-right: 0.35rem;
-}
-
-.gender-input label {/*texto do genero */
-    font-size: 0.81rem;
-    font-weight: 600;
-    color: #000000c0;
+    align-items: center; 
+    margin-bottom: 0.1rem; 
+    justify-content: flex-start;
+    font-size: 0.81rem;    
 }
 
 .continue-button button{/*cor do botão continuar */
     width: 100%;
     margin-top: 2.5rem;
     border: none;
-    background-color: pink;
+    background-color: rgb(237, 18, 86);
     padding: 0.62rem;
     border-radius: 5px;
     cursor: pointer;    
@@ -160,11 +202,26 @@ body {
     background-color: rgb(255, 212, 220);    
 }
 
-.continue-button button a {/*cor do texto do botão continuar */
+.continue-button button  {/*cor do texto do botão continuar */
     text-decoration: none;
     color: #fff;
     font-size: 0.93rem;
     font-weight: 500;
+}
+
+/* Footer */
+#footer {
+    background: rgb(237, 18, 86);
+    color: #fff;
+    padding: 30px;
+    bottom: 0;
+    text-align:center;
+    left: 0;
+    height: 40px;
+    position: fixed;
+    width: 100%; 
+    display: block;
+    line-height: 12px;         
 }
 
 @media screen and (max-width: 1330px) {/*deixar a imagem e o formulario responsivo */
@@ -201,4 +258,16 @@ body {
         margin-top: 0.5rem;
     }
 }
-    
+@media screen and (max-width: 1064px) {
+    #navbar{
+        display: none;        
+    }
+
+    #navbar-items{
+        display: none;
+    }
+
+    #footer{
+        display: none;        
+    }
+  }

@@ -1,0 +1,67 @@
+<!-- login.html -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../imagens/favicon.ico" type="image/x-icon">
+    <title>Formulário de Login</title>
+    <link rel="stylesheet" href="../css/cadastro.css">          
+</head>
+<body> 
+    <nav id="navbar">
+        <div id="navbar-container">
+            <a href="http://127.0.0.1:5500/index2.html"><h1 class="logo">MATCHPET</h1></a>
+            <ul id="navbar-items">
+                <a href="/html/perfil.html"><li>Animais para adoção</li></a><li>
+                <a href="/html/cadastro.html"><li>Cadastre-se</li></a>
+                <a href="/html/login.html"><li>Entrar</li></a>
+            </ul>
+        </div>
+    </nav> 
+    <div class="container">
+        <div class="form-image">
+            <img src="../imagens/imagem_showcase.jpg" alt="login">
+        </div>
+        <div class="form">   
+            <form id="form-login">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Login</h1>
+                    </div>
+                    <div class="home-button">
+                        <button><a href="../index.html">Voltar para Home</a></button>
+                    </div>    
+                </div>
+
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="username">Nome de Usuário</label>
+                        <input id="username" type="text" name="username" placeholder="Digite seu nome de usuário" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="password">Senha</label>
+                        <input id="password" type="password" name="password" placeholder="Digite sua senha" required>
+                    </div>
+                </div>  
+
+                <div class="continue-button">
+                    <button type="button" id="btnLogin">Entrar</button>
+                </div>
+                <br>
+                <div class="signup-link">
+                    Ainda não possui cadastro? <a href="cadastro.html">Clique aqui</a>.
+                </div>
+            </form>           
+        </div>
+    </div>
+    <footer id="footer">
+        <p>Copyright &copy; 2023 - Todos os direitos reservados</p>
+        <p>Feito por Matchpet</p>
+    </footer>
+    <script src="../js/cadastro.js"></script> 
+</body>
+</html>
