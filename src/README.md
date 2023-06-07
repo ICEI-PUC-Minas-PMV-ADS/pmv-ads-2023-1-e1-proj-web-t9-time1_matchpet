@@ -27,9 +27,9 @@ O site em HTML/CSS/JS é um projeto estático, logo pode ser utilizado tanto em 
 #### Adicionado
 -Adicionado javascript  
 -Adicionado footer no cadastro  
--Add navbar no cadastro 
+-Add navbar no cadastro   
 -Add username no cadastro  
 -Add PetAction no cadastro  
--Removido - Gênero do cadastro
+-Removido - Gênero do cadastro  
 -Add href na home para chamar o login
 
