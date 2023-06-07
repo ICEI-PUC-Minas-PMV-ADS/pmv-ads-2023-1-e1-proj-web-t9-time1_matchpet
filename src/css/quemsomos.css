@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* {
+    padding: 0;
+    margin: 0;    
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+/*cor do fundo */
+body {
+    width: 100%;
+    height: 105vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    background: #fff;    
+}
+
+.navbar a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Navbar */
+#navbar {
+    width: 100%;
+    background: rgb(237, 18, 86);
+    color: #fff;
+    height: 60px;
+    position: fixed;
+    top: 0;
+}
+
+#textqs{
+    text-align: center;
+}
+
+/* Elemento "filho" do navbar*/
+#navbar-container a, ul {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Elemento "filho" do navbar
+colocar margin auto coloca o elemento automaticamente no centro
+display flex coloca o elemento em linha 
+space-between justifica um espaco entre o pai e filho*/
+#navbar-container {
+    width: 98%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 2rem;
+}
+
+#navbar-items {
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+#navbar-items li{
+    padding: 10px;
+}
+
+.container {
+    margin-bottom: 40px;
+    width: 80%;    
+    height: 80vh;   
+    display: flex;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, .212);
+}    
+
+.form-image {/*cor do fundo da imagem */
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8e5ec;
+    padding: 1rem;
+}
+
+.form-image img {/*cor da imagem */
+    width: 31rem;   
+} 
+
+#container-texto{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#textqs{
+    border: 10px inset rgb(211, 127, 155);
+    align-items: center;
+    float: none;
+    padding: 1cm;
+}
+
+/* Footer */
+#footer {
+    background: rgb(237, 18, 86);
+    color: #fff;
+    padding: 30px;
+    bottom: 0;
+    text-align:center;
+    left: 0;
+    height: 40px;
+    position: fixed;
+    width: 100%; 
+    display: block;
+    line-height: 12px;         
+}
+
+
+
+@media screen and (max-width: 1064px) {
+    #navbar{
+        display: none;        
+    }
+
+    #navbar-items{
+        display: none;
+    }
+
+    #footer{
+        display: none;        
+    }
+  }

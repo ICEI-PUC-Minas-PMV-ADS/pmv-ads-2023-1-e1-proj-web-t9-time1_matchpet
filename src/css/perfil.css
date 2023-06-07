@@ -9,3 +9,20 @@ body {
      
   background-color: #f8e5ec !important;
 }
+
+
+
+#footer {
+  background: rgb(237, 18, 86);
+  color: #fff;
+  padding: 30px;
+  bottom: 0;
+  text-align:center;
+  left: 0;
+  height: 40px;
+  position: fixed;
+  width: 100%; 
+  display: block;
+  line-height: 12px;         
+  display: none;        
+}
