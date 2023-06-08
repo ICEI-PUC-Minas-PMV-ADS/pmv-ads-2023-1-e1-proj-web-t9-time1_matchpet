@@ -60,3 +60,10 @@ Após o finalizar o cadastro o usuário é direcionado a tela "Minha Conta" onde
 
 ![Cadastro/Human](/src/imagens/CadastroPetHuman.PNG)
 <center>Figura 8 - Tela Minha Conta </center> 
+
+## Tela - Recuperar Senha  
+
+Após o cadastro, o usuário tem a opção de recuperar sua senha.   
+
+![Recuperar Senha](/src/imagens/tela-recuperar-senha.PNG)
+<center>Figura 9 - Tela  Recuperar Senha
