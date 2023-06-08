@@ -1,18 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 * {
     padding: 0;
-    margin: 0;    
+    margin: 0;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
 }
+
 /*cor do fundo */
 body {
     width: 100%;
     height: 105vh;
     display: flex;
     justify-content: center;
-    align-items: center;    
-    background: #fff;    
+    align-items: center;
+    background: #fff;
 }
 
 .navbar a {
@@ -31,7 +33,8 @@ body {
 }
 
 /* Elemento "filho" do navbar*/
-#navbar-container a, ul {
+#navbar-container a,
+ul {
     color: #fff;
     text-decoration: none;
 }
@@ -59,20 +62,22 @@ space-between justifica um espaco entre o pai e filho*/
     text-transform: uppercase;
 }
 
-#navbar-items li{
+#navbar-items li {
     padding: 10px;
 }
 
+/* Elemento "filho" do navbar*/
 .container {
     margin-bottom: 40px;
-    width: 80%;    
-    height: 80vh;   
+    width: 85%;
+    height: 80vh;
     display: flex;
     box-shadow: 5px 5px 10px rgb(0, 0, 0, .212);
-}    
+}
 
-.form-image {/*cor do fundo da imagem */
-    width: 50%;
+/*cor do fundo da imagem */
+.form-image {    
+    width: 55%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -80,50 +85,57 @@ space-between justifica um espaco entre o pai e filho*/
     padding: 1rem;
 }
 
-.form-image img {/*cor da imagem */
-    width: 31rem;   
-} 
+/*cor da imagem */
+.form-image img {    
+    width: 31rem;
+}
 
-.form {/*cor do fundo do formulario */
+/*cor do fundo do formulario */
+.form {    
     width: 60%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 3rem;
-    background-color:#fff;
+    background-color: #fff;
 }
 
-.form-header { /*cor do titulo */
+/*cor do titulo */
+.form-header {    
     display: flex;
-    justify-content: space-between;    
+    justify-content: space-between;
     margin-bottom: 3rem;
 }
 
-.home-button {/* botão */
+  /* botão 
+.home-button {  
     display: flex;
     align-items: center;
-}
-
-.home-button button {/* cor do botão */
+}*/
+/* cor do botão 
+.home-button button {    
     border: none;
     background-color: rgb(237, 18, 86);
     padding: 0.4rem 1rem;
     border-radius: 5px;
     cursor: pointer;
-}
+}*/
 
-.home-button button:hover {/* cor do botão ao passar o mouse */
-    background-color: rgb(237, 18, 86);    
+/* cor do botão ao passar o mouse 
+.home-button button:hover {    
+    background-color: rgb(237, 18, 86);
 }
-
-.home-button button a {/* cor do texto do botão */
+*/
+ /* cor do texto do botão 
+.home-button button a {   
     text-decoration: none;
     color: #fff;
-    font-weight: 500;    
+    font-weight: 500;
 }
-
-.form-header h1::after{/*cor da linha abaixo do titulo */
+*/
+/*cor da linha abaixo do titulo */
+.form-header h1::after {    
     content: '';
     display: block;
     width: 5rem;
@@ -134,20 +146,23 @@ space-between justifica um espaco entre o pai e filho*/
     border-radius: 10px;
 }
 
-.input-group {   /*cor do fundo do input */
+/*cor do fundo do input */
+.input-group {    
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 1rem 0;
 }
 
-.input-box {/*cor do fundo do input */    
+/*cor do fundo do input */
+.input-box {    
     display: flex;
     margin-bottom: 1.1rem;
     flex-direction: column;
 }
 
-.input-box input {/*cor do fundo do input */
+/*cor do fundo do input */
+.input-box input {    
     margin: 0.6rem 1.2rem;
     padding: 0.8rem 1.2rem;
     border: none;
@@ -155,59 +170,67 @@ space-between justifica um espaco entre o pai e filho*/
     box-shadow: 1px 1px 6px #0000001c;
 }
 
+/*cor do fundo ao passar o mouse */
 .input-box input:hover {
-    background-color: #eeeeee75;/*cor do fundo ao passar o mouse */
+    background-color: #eeeeee75;    
 }
 
+/*cor da borda */
 .input-box input:focus-visible {
-    outline: 1px solid rgb(237, 18, 86);;  /*cor da borda */ 
+    outline: 1px solid rgb(237, 18, 86);    
 }
 
-.input-box label {/*cor do texto do input nome, etc...*/
+/*cor do texto do input nome, etc...*/
+.input-box label {    
     font-size: 0.75rem;
     font-weight: 600;
     color: #000000c0;
 }
 
-.input-box input::placeholder {/*cor do texto do input */
+/*cor do texto do input */
+.input-box input::placeholder {    
     color: #000000be;
 }
 
-.label-select {/*cor do fundo do input  */
+/*cor do fundo do input  */
+.label-select {    
     display: flex;
     justify-content: space-between;
-    margin-top: 0.62rem;
-    padding: 0 0.5rem;
+    margin-top: 0.63rem;
+    padding: 0 0.6rem;
 }
 
-.option {
-    display: flex;
-    align-items: center; 
-    margin-bottom: 0.1rem; 
-    justify-content: flex-start;
-    font-size: 0.81rem;    
-}
-
-.continue-button button{/*cor do botão continuar */
+/*cor do botão continuar */
+.continue-button button {     
     width: 100%;
     margin-top: 2.5rem;
     border: none;
     background-color: rgb(237, 18, 86);
     padding: 0.62rem;
     border-radius: 5px;
-    cursor: pointer;    
+    cursor: pointer;
 }
 
-.continue-button button:hover {/*cor do botão continuar ao passar o mouse */
-    background-color: rgb(255, 212, 220);    
+.continue-button button:hover {
+    /*cor do botão continuar ao passar o mouse */
+    background-color: rgb(255, 212, 220);
 }
 
-.continue-button button  {/*cor do texto do botão continuar */
+.continue-button button {
+    /*cor do texto do botão continuar */
     text-decoration: none;
     color: #fff;
     font-size: 0.93rem;
     font-weight: 500;
 }
+
+.link-password {
+    margin-top: 3px;
+}
+ 
+.signup-link {    
+    margin-top: 5px;   
+}   
 
 /* Footer */
 #footer {
@@ -215,59 +238,57 @@ space-between justifica um espaco entre o pai e filho*/
     color: #fff;
     padding: 30px;
     bottom: 0;
-    text-align:center;
+    text-align: center;
     left: 0;
     height: 40px;
     position: fixed;
-    width: 100%; 
+    width: 100%;
     display: block;
-    line-height: 12px;         
+    line-height: 12px;
 }
 
-@media screen and (max-width: 1330px) {/*deixar a imagem e o formulario responsivo */
+/*deixar a imagem e o formulario responsivo */
+@media screen and (max-width: 1330px) {    
     .container {
         width: 50%;
     }
+
     .form-image {
-       display: none;
+        display: none;
     }
+
     .form {
-        width: 100%;        
+        width: 100%;
     }
 }
 
-@media screen and (max-width: 1064px) {/*deixar o formulario responsivo */
+/*deixar o formulario responsivo */
+@media screen and (max-width: 1064px) {    
     .container {
         width: 90%;
         height: auto;
     }
-    .input-group{
+
+    .input-group {
         flex-direction: column;
         overflow-y: scroll;
         flex-wrap: nowrap;
         max-height: 10rem;
         padding-right: 5rem;
     }
-    .gender-inputs{
-        margin-bottom: 2rem;
-    }
-    .gender-group{
-        flex-direction: column;
-    }
-    .gender-input{
-        margin-top: 0.5rem;
-    }
 }
-@media screen and (max-width: 1064px) {
-    #navbar{
-        display: none;        
-    }
 
-    #navbar-items{
+/*deixar o menu e footer responsivo */
+@media screen and (max-width: 1064px) {
+    #navbar {
         display: none;
     }
 
-    #footer{
-        display: none;        
+    #navbar-items {
+        display: none;
     }
-  }
+
+    #footer {
+        display: none;
+    }
+}

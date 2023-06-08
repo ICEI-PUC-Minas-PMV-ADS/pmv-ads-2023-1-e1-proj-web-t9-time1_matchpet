@@ -1,115 +1,133 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="shortcut icon" href="../imagens/favicon.ico" type="image/x-icon">
-        <title>Formulário de cadastro</title>
-        <link rel="stylesheet" href="../css/cadastro.css">               
-    </head>
- <body> 
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../imagens/favicon.ico" type="image/x-icon">
+    <title>Formulário de cadastro</title>
+    <link rel="stylesheet" href="../css/cadastro.css">
+</head>
+
+<body>
     <nav id="navbar">
         <div id="navbar-container">
-            <a href="http://127.0.0.1:5500/index2.html"><h1 class="logo">MATCHPET</h1></a>
+            <a href="http://127.0.0.1:8080/index.html">
+                <h1 class="logo">MATCHPET</h1>
+            </a>
             <ul id="navbar-items">
-                <a href="/html/perfil.html"><li>Animais para adoção</li></a><li>
-                <a href="/html/cadastro.html"><li>Cadastre-se</li></a>
-                <a href="/html/login.html"><li>Entrar</li></a>
-                <a href="/src/html/quemsomos.html"><li>Quem somos</li></a>
+                <a href="../html/perfil.html">
+                    <li>Animais para adoção</li>
+                </a>
+                <li>
+                    <a href="../html/cadastro.html">
+                <li>Cadastre-se</li></a>
+                <a href="../html/login.html">
+                    <li>Entrar</li>
+                </a>
+                <a href="../html/quemsomos.html">
+                    <li>Quem somos</li>
+                </a>
             </ul>
         </div>
     </nav>
-        <div class="container">
-            <div class="form-image">
-                <img src="../imagens/imagem_showcase.jpg" alt="cadastro">
-            </div>
-            <div class="form">   
-                <form id="form-contato">
-                    
-                    <div class="form-header">
-                        <div class="title">
-                            <h1>Cadastre - se</h1>
-                        </div>
-                        <div class="home-button">
-                            <button><a href="../index.html">Voltar para Home</a></button>
-                        </div>    
-                    </div>
-
-                    <div class="input-group"><!--Input do 1º nome - Required de obrigatório-->
-                        <div class="input-box">
-                            <label for="firstname">Primeiro nome(*)</label>
-                            <input id="firstname" type="text" name="firstname" placeholder="Digite seu primeiro nome" required>
-                        </div> 
-                        
-                        <div class="input-box">
-                            <label for="lastname">Sobrenome(*)</label>
-                            <input id="lastname" type="text" name="lastname" placeholder="Digite seu sobrenome" required>
-                        </div> 
-
-                        <div class="input-box">
-                            <label for="username">Nome de Usuário(*)</label>
-                            <input id="username" type="text" name="username" placeholder="Digite seu nome de usuário" required>
-                         </div>
-
-                        <div class="input-box">
-                            <label for="email">E-mail(*)</label>
-                            <input id="email" type="email" name="email" placeholder="Digite o seu email" required>
-                        </div> 
-
-                        <div class="input-box">
-                            <label for="number">Celular(*)</label>
-                            <input id="number" type="tel" pattern="[0-9]{2}\s[0-9]{5}-[0-9]{4}" name="number" placeholder="xx xxxxx-xxxx" required>
-                        </div> 
-                       
-                        <div class="input-box">
-                            <label for="cpf">CPF(*)</label>
-                            <input id="cpf" type="cpf" name="cpf"  pattern="[0-9]{3}.[0-9]{3}.[0-9]{3}-[0-9]{2}" placeholder="000.000.000-00" required>
-                        </div> 
-
-                        <div class="input-box">
-                            <label for="password">Senha(*)</label>
-                            <input id="password" type="password" name="password" placeholder="Digite a sua senha" required>
-                        </div> 
-
-                        <div class="input-box">
-                            <label for="Confirmpassword">Confirme sua senha(*)</label>
-                            <input id="confirmpassword" type="password" name="confirmpassword" placeholder="Confirme a sua senha" required>
-                        </div>                         
-                        
-                    </div>                    
-                        <!-- Adicione isso dentro do formulário -->
-                        <div class="input-box">
-                            <div class="option">
-                                <label for="petAction">Pretende Adotar ou Doar um Pet?</label>
-                                <select id="petAction" name="petAction" aria-placeholder="selecione" required>
-                                    <option value="">Selecione</option>
-                                    <option value="adotar">Adotar</option>
-                                    <option value="doar">Doar</option>
-                                </select>
-                            </div>
-                        </div> 
-
-                    <div class="form-group row">
-                        <div class="col-sm-4">
-                            <small>(*) Campos obrigatórios</small>
-                        </div>
-                    </div>
-                   
-                    <div class="continue-button">
-                        <button type="button" id="btnInsert">Cadastrar</button>
-                    </div>
-                    <br>
-                    <div class="signup-link">
-                        Já possui cadastro? <a href="login.html">Clique aqui</a>.
-                    </div>
-                </form>
-            </div>
+    <div class="container">
+        <div class="form-image">
+            <img src="../imagens/imagem_showcase.jpg" alt="cadastro">
         </div>
-        <footer id="footer">
-            <p>Copyright &copy; 2023 - Todos os direitos reservados</p>
-            <p>Feito por Matchpet</p>
-        </footer>
-        <script src="../js/cadastro.js"></script> <!-- add para funcionar o cad -->        
-    </body>   
+        <div class="form">
+            <form id="form-contato">
+
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Cadastre - se</h1>
+                    </div>
+                    <div class="home-button">
+                       <!-- <button><a href="../index.html">Voltar para Home</a></button>-->
+                    </div>
+                </div>
+
+                <div class="input-group"><!--Input do 1º nome - Required de obrigatório-->
+                    <div class="input-box">
+                        <label for="firstname">Primeiro nome(*)</label>
+                        <input id="firstname" type="text" name="firstname" placeholder="Digite seu primeiro nome"
+                            required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="lastname">Sobrenome(*)</label>
+                        <input id="lastname" type="text" name="lastname" placeholder="Digite seu sobrenome" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="username">Nome de Usuário(*)</label>
+                        <input id="username" type="text" name="username" placeholder="Digite seu nome de usuário"
+                            required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="email">E-mail(*)</label>
+                        <input id="email" type="email" name="email" placeholder="Digite o seu email" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="number">Celular(*)</label>
+                        <input id="number" type="tel" pattern="[0-9]{2}\s[0-9]{5}-[0-9]{4}" name="number"
+                            placeholder="xx xxxxx-xxxx" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="cpf">CPF(*)</label>
+                        <input id="cpf" type="cpf" name="cpf" pattern="[0-9]{3}.[0-9]{3}.[0-9]{3}-[0-9]{2}"
+                            placeholder="000.000.000-00" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="password">Senha(*)</label>
+                        <input id="password" type="password" name="password" placeholder="Digite a sua senha" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="Confirmpassword">Confirme sua senha(*)</label>
+                        <input id="confirmpassword" type="password" name="confirmpassword"
+                            placeholder="Confirme a sua senha" required>
+                    </div>
+
+                </div>
+                
+                <div class="input-box">
+                    <div>
+                        <label for="petAction">Pretende Adotar ou Doar um Pet?</label>
+                        <select id="petAction" name="petAction" aria-placeholder="selecione" required>
+                            <option value="">Selecione</option>
+                            <option value="adotar">Adotar</option>
+                            <option value="doar">Doar</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <div class="col-sm-4">
+                        <small>(*) Campos obrigatórios</small>
+                    </div>
+                </div>
+
+                <div class="continue-button">
+                    <button type="button" id="btnInsert">Cadastrar</button>
+                </div>
+                <br>
+                <div class="signup-link">
+                    Já possui cadastro? <a href="login.html">Clique aqui</a>.
+                </div>
+            </form>
+        </div>
+    </div>
+    <footer id="footer">
+        <p>Copyright &copy; 2023 - Todos os direitos reservados</p>
+        <p>Feito por Matchpet</p>
+    </footer>
+    <script src="../js/cadastro.js"></script> <!-- add para funcionar o cad -->
+</body>
+
 </html>
