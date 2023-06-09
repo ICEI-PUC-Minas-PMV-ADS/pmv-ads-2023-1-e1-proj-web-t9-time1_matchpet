@@ -205,6 +205,7 @@ ul {
     padding: 0.62rem;
     border-radius: 5px;
     cursor: pointer;
+    box-shadow: 4px 4px 4px #858585, 4px 4px 4px #858585;
 }
 
 .continue-button button:hover {
@@ -221,7 +222,7 @@ ul {
 }
 
 .link-password {
-    margin-top: 3px;
+    margin-top: 10px;
 }
  
 .signup-link {    
