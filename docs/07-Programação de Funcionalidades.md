@@ -13,7 +13,7 @@ A tela de login permite que os usuários façam o login ao clicar no botão “E
 ### Artefatos da funcionalidade   
 - login.html
 - login.css
-- cadastro.js  
+- login.js  
 ### Dados Estruturados   
 
 ![Dados Estruturados](/src/imagens/dados-estruturados.PNG)
@@ -43,9 +43,9 @@ Na tela esqueceu a senha, o usuário pode recuperar sua senha ao digitar seu end
 ### Requisitos atendidos 
 - RF-13-   
 ### Artefatos da funcionalidade   
-- recuperarpassword.html
-- recuperarpassword.css 
-- recuperarpassword.js 
+- recuperar-password.html
+- recuperar-password.css 
+- recuperar-password.js 
 
 
 ### Instruções de acesso  
