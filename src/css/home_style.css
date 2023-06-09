@@ -27,7 +27,7 @@ a {
 
 .btn:hover {
     cursor: pointer;
-    background: #ff1493;
+    background: rgb(237, 18, 86);
 }
 
 .headline {
@@ -42,7 +42,7 @@ a {
 /* Navbar */
 #navbar {
     width: 100%;
-    background: #ff1493;
+    background: rgb(237, 18, 86);
     color: #fff;
     height: 70px;
     position: fixed;
@@ -236,7 +236,7 @@ E, analogamente, se a largura da viewport e 750px , 1vw equivale a 7.5px */
 
 /* Footer */
 #footer {
-    background: #ff1493;
+    background: rgb(237, 18, 86);
     color: #fff;
     padding: 40px;
     text-align: center;

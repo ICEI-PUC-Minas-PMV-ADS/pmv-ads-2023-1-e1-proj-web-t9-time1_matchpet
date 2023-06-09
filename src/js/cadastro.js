@@ -36,6 +36,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // Função para cadastrar o usuário
 function cadastrarUsuario() {
+   // Obter o elemento do formulário
+   var form = document.getElementById('form-contato');
+   // Verificar a validade do formulário usando o método checkValidity()
+   if (!form.checkValidity()) {
+     // O formulário é inválido, interrompa o processamento
+     form.reportValidity();
+     return;
+   }
   // Obter os valores dos campos do formulário
   var firstname = document.getElementById('firstname').value;
   var lastname = document.getElementById('lastname').value;
