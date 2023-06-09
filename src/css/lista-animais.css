@@ -94,10 +94,11 @@ a {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    box-shadow: 4px 4px 4px #858585, 4px 4px 4px #858585;   
 }
 
 .search button:hover {
-    background-color: rgb(255, 212, 220);
+    background-color: rgb(255, 212, 220);    
 }
 
 .search label {
@@ -105,6 +106,11 @@ a {
 }
 
 /* Section Cards */
+.card-link:hover {
+    transform: scale(1.1);/*para aumentar o tamanho do card*/
+    transition-duration: .9s;
+}
+
 img {
     border-radius: 5%;
     max-width: 100%;

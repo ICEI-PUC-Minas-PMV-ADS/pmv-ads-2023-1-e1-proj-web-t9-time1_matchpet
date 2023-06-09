@@ -205,15 +205,17 @@ ul {
     padding: 0.62rem;
     border-radius: 5px;
     cursor: pointer;
+    box-shadow: 4px 4px 4px #858585, 4px 4px 4px #858585;
 }
 
-.continue-button button:hover {
-    /*cor do botão continuar ao passar o mouse */
+/*cor do botão continuar ao passar o mouse */
+.continue-button button:hover {    
     background-color: rgb(255, 212, 220);
+    
 }
 
-.continue-button button {
-    /*cor do texto do botão continuar */
+/*cor do texto do botão continuar */
+.continue-button button {    
     text-decoration: none;
     color: #fff;
     font-size: 0.93rem;
