@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../imagens/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="Logosemfundo.png" type="image/png">
-    <link rel="stylesheet" href="../css/lista-animais.css">
-    <title>Lista de animais</title>
+<head>    
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="../imagens/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="Logosemfundo.png" type="image/png">
+        <link rel="stylesheet" href="../css/lista-animais.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="../js/lista-animais.js"></script>    
+        <script src="https://servicodados.ibge.gov.br/api/v1/localidades/estados/MG/municipios/3106200"></script>
+        <link
+        href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Quicksand:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    
+        <title>Lista de animais</title>   
 </head>
 
 <body>
@@ -37,22 +44,17 @@
     <h1 class="h1-pets">Pets para adoção</h1>
     <div class="search-form">
         <form class="search" action="#" method="GET">
-            <label for="tipo">Tipo:</label>
-            <select id="tipo" name="tipo">
+            <label for="especie">Espécie:</label>
+            <select id="especie" name="especie">
+              <option value="">Selecione</option>
                 <option value="cachorro">Cachorro</option>
                 <option value="gato">Gato</option>
                 <option value="outro">Outro</option>
             </select>
 
-            <label for="idade">Idade:</label>
-            <select id="idade" name="idade">
-                <option value="filhote">Filhote</option>
-                <option value="adulto">Adulto</option>
-                <option value="idoso">Idoso</option>
-            </select>
-
             <label for="sexo">Sexo:</label>
             <select id="sexo" name="sexo">
+              <option value="">Selecione</option>
                 <option value="macho">Macho</option>
                 <option value="femea">Fêmea</option>
                 <option value="indefinido">Indefinido</option>
@@ -60,10 +62,51 @@
 
             <label for="tamanho">Tamanho:</label>
             <select id="tamanho" name="tamanho">
+              <option value="">Selecione</option>
                 <option value="pequeno">Pequeno</option>
                 <option value="medio">Médio</option>
                 <option value="grande">Grande</option>
             </select>
+
+            <label for="estado">Estado:</label>
+            <select id="estado" name="estado">
+                <option value="">Selecione o estado</option>         
+                <option value="Minas Gerais">Minas Gerais</option>
+            </select>
+
+            <label for="cidade">Cidade:</label>
+            <select id="cidade" name="cidade">
+                <option value="">Selecione a Cidade</option>
+                <option value="Belo Horizonte">Belo Horizonte</option>
+                <option value="Uberlândia">Uberlândia</option>
+                <option value="Juiz de Fora">Juiz de Fora</option>
+                <option value="Contagem">Contagem</option>
+                <option value="Montes Claros">Montes Claros</option>
+                <option value="Betim">Betim</option>
+                <option value="Sete Lagoas">Sete Lagoas</option>
+                <option value="Ribeirão das Neves">Ribeirão das Neves</option>
+                <option value="Divinópolis">Divinópolis</option>
+                <option value="Uberaba">Uberaba</option>                
+                <option value="Ibirité">Ibirité</option>
+                <option value="Ribeirão das Neves">Ribeirão das Neves</option>
+                <option value="Sabará">Sabará</option>
+                <option value="Santa Luzia">Santa Luzia</option>
+                <option value="Vespasiano">Vespasiano</option>
+                <option value="Ouro Preto">Ouro Preto</option>
+                <option value="Nova Lima">Nova Lima</option>
+                <option value="Caeté">Caeté</option>                
+                <option value="Lagoa Santa">Lagoa Santa</option>
+                <option value="Itabira">Itabira</option>
+                <option value="Itaúna">Itaúna</option>
+                <option value="Pará de Minas">Pará de Minas</option>
+                <option value="Itajubá">Itajubá</option>
+                <option value="Ituiutaba">Ituiutaba</option>
+                <option value="Itabirito">Itabirito</option>
+                <option value="Iturama">Iturama</option>
+                <option value="Itamarandiba">Itamarandiba</option>
+                <option value="Itapecerica">Itapecerica</option>
+                <option value="Governador Valadares">Governador Valadares</option>
+            </select>        
 
             <button type="submit">Buscar</button>
         </form>

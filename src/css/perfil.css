@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 * {
   padding: 0;
   margin: 0;
@@ -9,24 +10,79 @@
 .toppad {
   margin-top: 20px;
 }
+
 body {
-     
   background-color: #f8e5ec !important;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
 
+#navbar {
+  width: 100%;
+  background: rgb(237, 18, 86);
+  color: #fff;
+  height: 62px;
+  top: 0;
+  position: fixed;
+}
+
+#navbar-container {
+  width: 98%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.logo {
+  font-size: 2rem;
+  color: #fff;
+}
+
+#navbar-items {
+  display: flex;
+  list-style: none;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+#navbar-items li {
+  padding: 10px;
+  color: #fff;
+}
+
+.container {
+  margin-bottom: 60px; 
+}
 
 #footer {
   background: rgb(237, 18, 86);
   color: #fff;
-  padding: 30px;
-  bottom: 0;
-  text-align:center;
-  left: 0;
-  height: 40px;
   position: fixed;
-  width: 100%; 
-  display: block;
-  line-height: 12px;         
-  display: none;        
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+
+/*deixar o menu e footer responsivo */
+@media screen and (max-width: 1064px) {
+  #navbar {
+    display: none;
+  }
+
+  #navbar-items {
+    display: none;
+  }
+
+  #footer {
+    display: none;
+  }
 }
