@@ -2,11 +2,81 @@
 
 A seguir, serão apresentadas as interfaces desenvolvidas para as funcionalidades do sistema, juntamente com o respectivo endereço e as orientações necessárias para o acesso. Desta forma, será possível visualizar as telas de maneira adequada e utilizar as funcionalidades disponíveis.   
 
+## Tela Principal (RF-01)   
+A tela principal apresenta uma página inicial exibindo botão de cadastro de usuários, login do usuário, menu, filtros de animais e uma lista de animais disponíveis para adoção.  
+
+![Tela Principal](/src/imagens)
+<center>Figura 1 - Tela principal </center> 
+
+### Requisitos atendidos 
+- RF-01-   
+### Artefatos da funcionalidade   
+- index.html
+- home_mobile.css 
+- home_style.css 
+
+### Instruções de acesso   
+1. Abra um navegador de Internet e informe a seguinte URL: 
+
+## Tela Quem somos  (RF-02)   
+O site deve exibir uma página do menu “Quem somos”.
+
+![Tela Principal](/src/imagens//telas-funcionalidade/tela-quem-somos.PNG)
+<center>Figura 2 - Tela Quem somos </center> 
+
+### Requisitos atendidos 
+- RF-02-   
+### Artefatos da funcionalidade   
+- quemsomos.html
+- quemsomos.css 
+
+### Instruções de acesso   
+1. Abra um navegador de Internet e informe a seguinte URL: 
+
+
+## Tela Lista de animais (RF-03, RF-04 e RF-05)    
+A tela lista de animais, permite que o usuário visualize os animais disponíveis para adoção, faça buscas filtradas e seja redirecionado para o perfil de cada pet. 
+
+![Tela Principal](/src/imagens//telas-funcionalidade/tela-lista-animais.PNG)
+<center>Figura 3 - Tela Lista de animais </center> 
+
+### Requisitos atendidos   
+- RF-03-
+- RF-04-
+- RF-05-
+### Artefatos da funcionalidade   
+- lista-animais.html
+- lista-animais.css 
+- lista-animais.js
+
+### Instruções de acesso   
+1. Abra um navegador de Internet e informe a seguinte URL: 
+
+
+
+## Tela Perfil do Pet (RF-06)   
+Permite que o usuário visualize os animais disponíveis para adoção, faça buscas filtradas e seja redirecionado para o perfil de cada pet. 
+
+![Tela Principal](/src/imagens//telas-funcionalidade/tela-perfil-pet.jpeg)
+<center> Figura 4 - Tela Perfil do pet </center> 
+
+### Requisitos atendidos   
+- RF-06-
+
+### Artefatos da funcionalidade   
+- perfil.html
+- perfil.css 
+
+### Instruções de acesso   
+1. Abra um navegador de Internet e informe a seguinte URL: 
+
+
+
 ## Tela de login (RF-07)   
 A tela de login permite que os usuários façam o login ao clicar no botão “Entrar”.   
 
-![Tela Login](/src/imagens/tela-login.PNG)
-<center>Figura 1 - Fluxo de telas do usuário </center>  
+![Tela Login](/src/imagens/telas-funcionalidade/tela-login.PNG)
+<center>Figura 5 - Tela de login </center>  
 
 ### Requisitos atendidos 
 - RF-07-   
@@ -17,14 +87,16 @@ A tela de login permite que os usuários façam o login ao clicar no botão “E
 ### Dados Estruturados   
 
 ![Dados Estruturados](/src/imagens/dados-estruturados.PNG)
-<center>Figura 2 - Dados Estruturados </center> 
+
+### Instruções de acesso   
+1. Abra um navegador de Internet e informe a seguinte URL: 
 
 ## Tela Cadastro (RF-08)   
 
 A tela de cadastro permite que os usuários criem um cadastro de usuário para doar ou adotar um animal.  
 
-![Tela Cadastro](/src/imagens/tela-cadastro-funcionalidade.PNG)
-<center> Figura 3 - Tela Cadastro </center> 
+![Tela Cadastro](/src/imagens/telas-funcionalidade/tela-cadastro-funcionalidade.PNG)
+<center> Figura 6 - Tela Cadastro </center> 
 
 ### Requisitos atendidos 
 - RF-08-   
@@ -32,13 +104,15 @@ A tela de cadastro permite que os usuários criem um cadastro de usuário para d
 - cadastro.html
 - cadastro.css 
 - cadastro.js  
+### Instruções de acesso   
+1. Abra um navegador de Internet e informe a seguinte URL:   
 
 ## Tela Recuperar Senha (RF-13)   
 
 Na tela esqueceu a senha, o usuário pode recuperar sua senha ao digitar seu endereço de e-mail.  
 
-![Tela Recuperar Senha](/src/imagens/recuperar-senha.PNG)
-<center> Figura 4 - Tela Recuperar Senha </center> 
+![Tela Recuperar Senha](/src/imagens/telas-funcionalidade/recuperar-senha.PNG)
+<center> Figura 7 - Tela Recuperar Senha </center> 
 
 ### Requisitos atendidos 
 - RF-13-   
@@ -47,9 +121,8 @@ Na tela esqueceu a senha, o usuário pode recuperar sua senha ao digitar seu end
 - recuperar-password.css 
 - recuperar-password.js 
 
-
-### Instruções de acesso  
-Em andamento...
+### Instruções de acesso   
+1. Abra um navegador de Internet e informe a seguinte URL: 
 
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="5-Arquitetura da Solução.md"> Arquitetura da Solução</a>
