@@ -3,17 +3,12 @@
 // **************Não está finalizado, farei alterações...Separando login do cadastro************
 //--------------------------------------------------------------------------------------------------------
 
-var usuarios = [];
-
-
-
 document.addEventListener("DOMContentLoaded", function () {
   console.log('Inicializando o JavaScript');
 
   // Obtém o caminho da URL atual
   var path = document.location.pathname;
 
-  
   // Verifica se é a página de login e se o elemento btnLogin existe
   if (path.endsWith('login.html')) {
     // Adiciona o event listener apenas para o botão de login
