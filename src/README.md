@@ -68,3 +68,8 @@
 ### Adicionado  
 - Add card-link:hover nos cards de lista-animais.html
 - Add box-shadow nos botões
+
+### v[0.1.6] - 10/06/2023
+### Modificada  
+- Alterada cor home de testimonials-container
+- mod cor show case
