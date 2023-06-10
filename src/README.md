@@ -64,4 +64,7 @@
 -  De recuperarpassword.js para recuperar-password.js
 - Mod o botão de enviar na pg recuperar senha era redondo ficou quadrado como as outras pgs
 
-
+### v[0.1.5] - 10/06/2023
+### Adicionado  
+- Add card-link:hover nos cards de lista-animais.html
+- Add box-shadow nos botões
