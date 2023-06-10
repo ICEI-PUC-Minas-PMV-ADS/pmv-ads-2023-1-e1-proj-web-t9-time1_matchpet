@@ -73,3 +73,10 @@
 ### Modificada  
 - Alterada cor home de testimonials-container
 - mod cor show case
+
+### v[0.1.7] - 11/06/2023
+### Ajustes
+- Ajuste de filtro de lista de animais e outros
+- Ajuste no js e html de filtro de animais
+- Ajuste no caminho para outra pg
+- Ajuste no footer e nav de perfil do pet
