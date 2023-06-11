@@ -5,7 +5,7 @@ A seguir, serão apresentadas as interfaces desenvolvidas para as funcionalidade
 ## Tela Principal (RF-01)   
 A tela principal apresenta uma página inicial exibindo botão de cadastro de usuários, login do usuário, menu, filtros de animais e uma lista de animais disponíveis para adoção.  
 
-![Tela Principal](/src/imagens)
+![Tela Principal](/src/imagens/telas-funcionalidade/home-funcionalidade.jpg)
 <center>Figura 1 - Tela principal </center> 
 
 ### Requisitos atendidos 
@@ -37,7 +37,7 @@ O site deve exibir uma página do menu “Quem somos”.
 ## Tela Lista de animais (RF-03, RF-04 e RF-05)    
 A tela lista de animais, permite que o usuário visualize os animais disponíveis para adoção, faça buscas filtradas e seja redirecionado para o perfil de cada pet. 
 
-![Tela Principal](/src/imagens//telas-funcionalidade/tela-lista-animais.PNG)
+![Tela Principal](/src/imagens//telas-funcionalidade/tela-lista-animais.jpg)
 <center>Figura 3 - Tela Lista de animais </center> 
 
 ### Requisitos atendidos   
