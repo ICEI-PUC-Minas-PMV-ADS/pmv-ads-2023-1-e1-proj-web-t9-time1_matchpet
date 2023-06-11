@@ -58,7 +58,8 @@ a {
 }
 
 .container {
-  margin-bottom: 60px; 
+  margin-bottom: 60px;
+  padding: 60px; 
 }
 
 #footer {
@@ -70,6 +71,7 @@ a {
   width: 100%;
   padding: 10px;
   text-align: center;
+  height: 40px;
 }
 
 /*deixar o menu e footer responsivo */
