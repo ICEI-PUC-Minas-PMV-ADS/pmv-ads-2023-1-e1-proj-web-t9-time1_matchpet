@@ -21,8 +21,8 @@ Caso de teste: Visualizar perfil do pet.
 - Entrada: Entrar na "Home", em seguida na página “animais para adoção” e Clicar no animal desejado
 - Saída esperada: Visualizar perfil do animal.   
 
-![Caso Teste 01](/src/imagens/caso-teste-vizualizar-pet/ct02-ver-perfil-pet.png)
-<center> Figura 1 - CT-01</center> 
+![Caso Teste 02](/src/imagens/caso-teste-vizualizar-pet/ct02-ver-perfil-pet.png)
+<center> Figura 2 - CT-02</center> 
 
 
 
