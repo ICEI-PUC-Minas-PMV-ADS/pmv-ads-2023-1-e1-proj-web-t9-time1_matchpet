@@ -80,3 +80,8 @@
 - Ajuste no js e html de filtro de animais
 - Ajuste no caminho para outra pg
 - Ajuste no footer e nav de perfil do pet
+
+### v[0.1.8] - 11/06/2023
+### Ajustes
+- Ajuste padding do conteiner
+- ajuste o height do footer
