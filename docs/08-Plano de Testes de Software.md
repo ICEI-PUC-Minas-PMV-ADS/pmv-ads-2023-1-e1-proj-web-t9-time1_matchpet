@@ -2,6 +2,28 @@
 Foi feita a instalação do Node.js e do servidor web http-server, disponível para instalação via pacote npm, a fim de realizar testes locais. 
 
 Abaixo estão descritas as etapas dos testes funcionais: 
+|Casos de Teste |CT-01 – Visualizar pets disponíveis para adoção  |
+|:--------------:        |---------------------------------------|
+|Requisitos associados   | RF-05 - Ao selecionar um animal da lista, o site deve exibir uma página de perfil do animal.  |
+|Objetivo do Teste       | Visualizar a página de perfil do pet. |
+|Passos                  | 1)  Acessar o Navegador |
+|                        | 2)  Informar o endereço do Site |
+|                        | 3)  Visualizar a página principal |
+|                        | 4)  Clicar em “Animais para adoção” ||
+| Critérios de êxito     | O sistema permite que o usuário visualizar os animais disponíveis. |
+
+|Casos de Teste |CT-02 – Visualizar perfil do pet.  |
+|:--------------:        |---------------------------------------|
+|Requisitos associados   | RF-06 - A página de perfil do animal deve conter todos os dados cadastrados do pet e os dados para contato do responsável |
+|Objetivo do Teste       | Ver o perfil do pet. |
+|Passos                  | 1)  Acessar o Navegador |
+|                        | 2)  Informar o endereço do Site |
+|                        | 3)  Visualizar a página principal |
+|                        | 4)  Clicar em “Animais para adoção” |
+|                        | 5)  Clicar na imagem do animal pretendido |
+| Critérios de êxito     | O sistema permite que o usuário vizualize o perfil do pet, bem como seus dados. |
+
+
 |Casos de Teste |CT-03 – Realizar Login  |
 |:--------------:        |---------------------------------------|
 |Requisitos associados   | RF-07 - O site deve exibir uma página para login ao clicar no botão “Entrar”. |
