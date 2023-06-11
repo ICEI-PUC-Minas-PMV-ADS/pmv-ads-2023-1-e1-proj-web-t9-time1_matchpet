@@ -1,6 +1,24 @@
 # Registro de Testes de Software
 
-A seguir, são apresentados os resultados dos testes de software. 
+A seguir, são apresentados os resultados dos testes de software.   
+
+
+### CT-01 Visualizar pets disponíveis para adoção.
+
+Caso de teste: Login bem-sucedido. 
+- Entrada: Entrar na página principal 
+- Saída esperada: Visualizar animais disponiveis   
+
+![Caso Teste 01](/src/imagens/caso-teste-vizualizar-pet/ct01-vizua-pet.png)
+<center> Figura 1 - CT-01</center>  
+
+
+
+
+
+
+
+
 
 ### CT-03 Fazer login
 Caso de teste: Login bem-sucedido. 
