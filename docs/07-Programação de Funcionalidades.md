@@ -16,7 +16,8 @@ A tela principal apresenta uma página inicial exibindo botão de cadastro de us
 - home_style.css 
 
 ### Instruções de acesso   
-1. Abra um navegador de Internet e informe a seguinte URL: 
+1. Abra um navegador de Internet e informe a seguinte URL:
+2. A tela de principal é a primeira funcionalidade exibida pelo aplicativo. 
 
 ## Tela Quem somos  (RF-02)   
 O site deve exibir uma página do menu “Quem somos”.
@@ -31,7 +32,9 @@ O site deve exibir uma página do menu “Quem somos”.
 - quemsomos.css 
 
 ### Instruções de acesso   
-1. Abra um navegador de Internet e informe a seguinte URL: 
+1. Abra um navegador de Internet e informe a seguinte URL:
+2. A tela de principal é a primeira funcionalidade exibida pelo aplicativo. 
+3. Clique no botão “Quem Somos”.
 
 
 ## Tela Lista de animais (RF-03, RF-04 e RF-05)    
@@ -51,6 +54,8 @@ A tela lista de animais, permite que o usuário visualize os animais disponívei
 
 ### Instruções de acesso   
 1. Abra um navegador de Internet e informe a seguinte URL: 
+2. A tela de principal é a primeira funcionalidade exibida pelo aplicativo.
+3. Clique no botão “animais para adoção”
 
 
 
@@ -68,7 +73,13 @@ Permite que o usuário visualize os animais disponíveis para adoção, faça bu
 - perfil.css 
 
 ### Instruções de acesso   
-1. Abra um navegador de Internet e informe a seguinte URL: 
+1. Abra um navegador de Internet e informe a seguinte URL:
+2. A tela de principal é a primeira funcionalidade exibida pelo aplicativo.
+3. Clique no botão “animais para adoção”.
+4. Escolha um animal e clique na foto.
+5. Pronto você será redirecionado para o perfil do pet
+ 
+
 
 
 
@@ -90,6 +101,8 @@ A tela de login permite que os usuários façam o login ao clicar no botão “E
 
 ### Instruções de acesso   
 1. Abra um navegador de Internet e informe a seguinte URL: 
+2. A tela de principal é a primeira funcionalidade exibida pelo aplicativo. 
+3. Clique no botão “Entrar”.
 
 ## Tela Cadastro (RF-08)   
 
@@ -105,7 +118,9 @@ A tela de cadastro permite que os usuários criem um cadastro de usuário para d
 - cadastro.css 
 - cadastro.js  
 ### Instruções de acesso   
-1. Abra um navegador de Internet e informe a seguinte URL:   
+1. Abra um navegador de Internet e informe a seguinte URL:
+2. A tela de principal é a primeira funcionalidade exibida pelo aplicativo.
+3. Clique no botão “Cadastre-se”.   
 
 ## Tela Recuperar Senha (RF-13)   
 
@@ -122,7 +137,10 @@ Na tela esqueceu a senha, o usuário pode recuperar sua senha ao digitar seu end
 - recuperar-password.js 
 
 ### Instruções de acesso   
-1. Abra um navegador de Internet e informe a seguinte URL: 
+1. Abra um navegador de Internet e informe a seguinte URL:
+2. A tela de principal é a primeira funcionalidade exibida pelo aplicativo.
+3. Clique no botão “Entrar”. 
+4. Na página de login clique em “Esqueceu sua senha?.
 
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="5-Arquitetura da Solução.md"> Arquitetura da Solução</a>
