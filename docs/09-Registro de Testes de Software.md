@@ -4,8 +4,9 @@ A seguir, são apresentados os resultados dos testes de software.
 
 
 ### CT-01 Visualizar pets disponíveis para adoção.
+### Gabriel Victor: Responsável pelo ct-o1.
 
-Caso de teste: Login bem-sucedido. 
+Caso de teste: Visualizar pets disponíveis para adoção. 
 - Entrada: Entrar na página principal 
 - Saída esperada: Visualizar animais disponiveis   
 
@@ -13,7 +14,15 @@ Caso de teste: Login bem-sucedido.
 <center> Figura 1 - CT-01</center>  
 
 
+### CT-02 Visualizar perfil do pet.
+### Gabriel Victor: Responsável pelo ct-o2.
 
+Caso de teste: Visualizar perfil do pet. 
+- Entrada: Entrar na "Home", em seguida na página “animais para adoção” e Clicar no animal desejado
+- Saída esperada: Visualizar perfil do animal.   
+
+![Caso Teste 01](/src/imagens/caso-teste-vizualizar-pet/ct02-ver-perfil-pet.png)
+<center> Figura 1 - CT-01</center> 
 
 
 
@@ -21,6 +30,7 @@ Caso de teste: Login bem-sucedido.
 
 
 ### CT-03 Fazer login
+### Renata Gonzaga: Responsável pelo ct-o3
 Caso de teste: Login bem-sucedido. 
 - Entrada: username = "jperes", password = "159357" 
 - Saída esperada: Alerta exibindo "Usuário logado!"   
@@ -30,6 +40,7 @@ Caso de teste: Login bem-sucedido.
 
 
 ### CT-04 Senha incorreta
+### Renata Gonzaga: Responsável pelo ct-o4
 Caso de teste: Senha incorreta.  
 - Entrada: username = "jperes, password = "wron123” 
 - Saída esperada: Alerta exibindo "Senha incorreta!"   
@@ -39,7 +50,8 @@ Caso de teste: Senha incorreta.
 
 
 
-### CT-05 Usuário inexistente. 
+### CT-05 Usuário inexistente.
+### Renata Gonzaga: Responsável pelo ct-o5
 Caso de teste: Usuário inexistente.  
 - Entrada: username = "jane", password = "password456" 
 - Saída esperada: Alerta exibindo "Usuário não existe!"    
@@ -50,6 +62,7 @@ Caso de teste: Usuário inexistente.
 
 
 ### CT-06 Dados vazios. 
+### Renata Gonzaga: Responsável pelo ct-o6
 Caso de teste: Dados vazios.  
 - Entrada: username = "", password = ""  
 - Saída esperada: Alerta exibindo "Usuário não existe!"     
@@ -58,7 +71,8 @@ Caso de teste: Dados vazios.
 <center> Figura 6 - CT-06 </center>  
 
 
-### CT-07 Usuário encontrado, senha vazia.  
+### CT-07 Usuário encontrado, senha vazia.
+### Renata Gonzaga: Responsável pelo ct-o7
 Caso de teste: Usuário encontrado, senha vazia  
 - Entrada: username = " jperes", password = ""   
 - Saída esperada: Alerta exibindo "Senha incorreta!"      
@@ -67,7 +81,8 @@ Caso de teste: Usuário encontrado, senha vazia
 <center> Figura 7 - CT-07 </center>  
 
 
-### CT-08 Recuperar password.  
+### CT-08 Recuperar password.
+### Renata Gonzaga: Responsável pelo ct-o8
 Caso de teste: Recuperar password.  
 - Entrada: Digite o seu e-mail abaixo para receber as instruções de como recuperar sua senha: = " jperes@nomail.com "   
 - Saída esperada: Alerta exibindo "Um e-mail de recuperação foi enviado para jperes@nomail.com ".      
@@ -77,7 +92,8 @@ Caso de teste: Recuperar password.
 
 
 
-### CT-09 Recuperar password: Campos vazios. 
+### CT-09 Recuperar password: Campos vazios.
+### Renata Gonzaga: Responsável pelo ct-o9
 Caso de teste: Recuperar password: Campos vazios.  
 - Entrada: Digite o seu e-mail abaixo para receber as instruções de como recuperar sua senha: = ""    
 - Saída esperada: Alerta exibindo " Preencher este campo ".      
@@ -87,7 +103,8 @@ Caso de teste: Recuperar password: Campos vazios.
 
 
 
-### CT-10 Recuperar password: Formato incorreto.  
+### CT-10 Recuperar password: Formato incorreto.
+### Renata Gonzaga: Responsável pelo ct-10
 Caso de teste: Recuperar password: Formato incorreto   
 - Entrada: Digite o seu e-mail abaixo para receber as instruções de como recuperar sua senha: = "jperesnomail.com"   
 - Saída esperada: Alerta exibindo "Inclua um @ no endereço de e-mail.” jperesnomail.com” está com um @ faltando".        
