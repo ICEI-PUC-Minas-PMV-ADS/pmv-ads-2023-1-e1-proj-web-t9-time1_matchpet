@@ -45,7 +45,7 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 
 # Hospedagem
 
-* Insira o endereço eletrônico público de acesso ao conteúdo publicado. 
+* https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-1-e1-proj-web-t9-time1_matchpet/src/ 
 
 # Armazenamento do Código-Fonte
 
