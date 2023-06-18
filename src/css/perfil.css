@@ -12,7 +12,7 @@
 }
 
 body {
-  background-color: #f8e5ec !important;
+  background-color: #fff !important;
 }
 
 a {
@@ -23,7 +23,7 @@ a {
 #navbar {
   width: 100%;
   background: rgb(237, 18, 86);
-  color: #fff;
+  color: #FFEAEA;
   height: 62px;
   top: 0;
   position: fixed;
@@ -36,25 +36,25 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: #fff;
+  color: #FFEAEA;
   text-decoration: none;
 }
 
 .logo {
   font-size: 2rem;
-  color: #fff;
+  color: #FFEAEA;
 }
 
 #navbar-items {
   display: flex;
   list-style: none;
   text-transform: uppercase;
-  color: #fff;
+  color: #FFEAEA;
 }
 
 #navbar-items li {
   padding: 10px;
-  color: #fff;
+  color: #FFEAEA;
 }
 
 .container {
@@ -63,8 +63,8 @@ a {
 }
 
 #footer {
-  background: rgb(237, 18, 86);
-  color: #fff;
+  background: #FFEAEA;
+  color: #000000be;
   position: fixed;
   left: 0;
   bottom: 0;

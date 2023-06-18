@@ -68,7 +68,7 @@ a {
 }
 
 .search-form {
-    background-color: #f2f2f2;
+    background-color: #fcf1f4;
     padding: 15px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);    
@@ -165,8 +165,8 @@ section.flex {
 }
 
 #footer {
-    background: rgb(237, 18, 86);
-    color: #fff;
+    background: #FFEAEA;
+    color: #000000be;
     padding: 30px;
     text-align: center;
 }
