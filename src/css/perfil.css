@@ -27,6 +27,8 @@ a {
   height: 62px;
   top: 0;
   position: fixed;
+  text-decoration: none;
+  z-index: 9999;
 }
 
 #navbar-container {
@@ -43,6 +45,7 @@ a {
 .logo {
   font-size: 2rem;
   color: #FFEAEA;
+  text-decoration: none;
 }
 
 #navbar-items {
@@ -50,32 +53,65 @@ a {
   list-style: none;
   text-transform: uppercase;
   color: #FFEAEA;
+  text-decoration: none;
 }
 
 #navbar-items li {
   padding: 10px;
   color: #FFEAEA;
+  text-decoration: none;
 }
 
 .container {
-  margin-bottom: 60px;
-  padding: 60px; 
+  padding: 60px;
+  margin-top: 62px;
+  background-color: #fff9fc;
 }
 
 #footer {
   background: #FFEAEA;
   color: #000000be;
-  position: fixed;
-  left: 0;
+  padding: 30px;
   bottom: 0;
-  width: 100%;
-  padding: 10px;
   text-align: center;
+  left: 0;
   height: 40px;
+  position: fixed;
+  width: 100%;
+  display: block;
+  line-height: 10px;
 }
 
-/*deixar o menu e footer responsivo */
+/*deixar a imagem e o formulario responsivo */
+@media screen and (max-width: 1330px) {
+  .container {
+    width: 50%;
+  }
+
+  .form-image {
+    display: none;
+  }
+
+  .form {
+    width: 100%;
+  }
+}
+
+/*deixar o formulario responsivo */
 @media screen and (max-width: 1064px) {
+  .container {
+    width: 90%;
+    height: auto;
+  }
+
+  .form-image {
+    display: none;
+  }
+
+  .form {
+    width: 100%;
+  }
+
   #navbar {
     display: none;
   }
@@ -87,4 +123,6 @@ a {
   #footer {
     display: none;
   }
+
+
 }
