@@ -35,7 +35,7 @@ body {
 /* Elemento "filho" do navbar*/
 #navbar-container a,
 ul {
-    color: #fff;
+    color: #FFEAEA;
     text-decoration: none;
 }
 
@@ -69,6 +69,7 @@ ul {
     height: 80vh;
     display: flex;
     box-shadow: 5px 5px 10px rgb(0, 0, 0, .212);
+    max-width: 100%;
 }
 
 /*cor do fundo da imagem */
@@ -77,7 +78,7 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f8e5ec;
+    background-color: #fff9fc;
     padding: 1rem;
 }
 
@@ -95,13 +96,15 @@ ul {
     align-items: center;
     padding: 3rem;
     background-color: #fff;
+    overflow: hidden;
+    max-width: 100%;
 }
 
 /*cor do titulo */
 .form-header {    
     display: flex;
     justify-content: space-between;
-    margin-bottom: 3rem;
+    margin-bottom: 1.5rem;
 }
 
   /* botão 
@@ -153,7 +156,7 @@ ul {
 /*cor do fundo do input */
 .input-box {    
     display: flex;
-    margin-bottom: 1.1rem;
+    margin-bottom: 0.09rem;
     flex-direction: column;
 }
 
@@ -199,7 +202,7 @@ ul {
 /*cor do botão continuar */
 .continue-button button {     
     width: 100%;
-    margin-top: 2.5rem;
+    margin-top: 0.2rem;
     border: none;
     background-color: rgb(237, 18, 86);
     padding: 0.62rem;
@@ -223,17 +226,17 @@ ul {
 }
 
 .link-password {
-    margin-top: 3px;
+    margin-top: 0.2px;
 }
  
 .signup-link {    
-    margin-top: 5px;   
+    margin-top: 0.2px;   
 }   
 
 /* Footer */
 #footer {
-    background: rgb(237, 18, 86);
-    color: #fff;
+    background: #FFEAEA;
+    color: #000000be;
     padding: 30px;
     bottom: 0;
     text-align: center;
@@ -242,7 +245,7 @@ ul {
     position: fixed;
     width: 100%;
     display: block;
-    line-height: 12px;
+    line-height: 13px;
 }
 
 /*deixar a imagem e o formulario responsivo */
@@ -264,20 +267,17 @@ ul {
 @media screen and (max-width: 1064px) {    
     .container {
         width: 90%;
-        height: auto;
+        height: auto;       
     }
 
-    .input-group {
-        flex-direction: column;
-        overflow-y: scroll;
-        flex-wrap: nowrap;
-        max-height: 10rem;
-        padding-right: 5rem;
+    .form-image {
+        display: none;
     }
-}
 
-/*deixar o menu e footer responsivo */
-@media screen and (max-width: 1064px) {
+    .form {
+        width: 100%;
+    }
+
     #navbar {
         display: none;
     }
@@ -289,4 +289,6 @@ ul {
     #footer {
         display: none;
     }
+
+   
 }
