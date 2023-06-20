@@ -1,42 +1,54 @@
-document.getElementById("form-contato").addEventListener("submit", function(event) {
-    event.preventDefault(); // Impede o envio do formulário
+var pets = [];
 
-    // Obtendo os valores dos campos do formulário
-    var nomePet = document.getElementById("firstname").value;
-    var sexoPet = document.getElementById("sexoPet").value;
-    var cidadePet = document.getElementById("nomeCidade").value;
-    var email = document.getElementById("email").value;
-    var telefone = document.getElementById("number").value;
-
-    // Realizando a validação dos campos
-    if (nomePet === "" || sexoPet === "" || cidadePet === "" || email === "" || telefone === "") {
-        // Exibindo mensagem de erro
-        alert("Por favor, preencha todos os campos obrigatórios.");
-    } else {
-        // Simulando uma resposta de API falsa
-        var fakeApiResponse = {
-            status: "sucesso",
-            mensagem: "Cadastro do pet realizado com sucesso!"
-        };
-
-        // Verificando o status da resposta simulada
-        if (fakeApiResponse.status === "sucesso") {
-            // Exibindo mensagem de sucesso no elemento <div>
-            document.getElementById("mensagem").textContent = fakeApiResponse.mensagem;
-            alert('Cadastro do pet realizado com sucesso!');
-
-            // Limpa os campos do formulário
-            document.getElementById("firstname").value = "";
-            document.getElementById("sexoPet").value = "";
-            document.getElementById("nomeCidade").value = "";
-            document.getElementById("email").value = "";
-            document.getElementById("number").value = "";
-
-            // Redirecionando para a página desejada após o cadastro
-            window.location.href = "pagina-de-sucesso.html";
-        } else {
-            // Exibindo mensagem de erro no elemento <div>
-            document.getElementById("mensagem").textContent = "Erro ao cadastrar o pet: " + fakeApiResponse.mensagem;
-        }
+document.addEventListener("DOMContentLoaded", function () {
+    console.log('Inicializando o JavaScript');
+  
+    // Obtém o caminho da URL atual
+    var path = document.location.pathname;
+  
+    // Verifica se é a página de cadastro
+    if (path.endsWith('cadastro-pet.html')) {
+      // Adiciona o event listener apenas para o botão de cadastro
+      console.log('Página de cadastro de pet');
+      var btnInsert = document.getElementById('btnInsert');
+      console.log('btnInsert:', btnInsert);
+      if (btnInsert) {
+        btnInsert.addEventListener('click', cadastrarPet);
+      }
     }
-});
+  });
+
+// Função para cadastrar o usuário
+function cadastrarPet() {
+    // Obter o elemento do formulário
+    var form = document.getElementById('form-contato');
+    // Verificar a validade do formulário usando o método checkValidity()
+    if (!form.checkValidity()) {
+      // O formulário é inválido, interrompa o processamento
+      form.reportValidity();
+      return;
+    }
+   // Obter os valores dos campos do formulário
+   var firstname = document.getElementById('firstname').value;
+   var dataNascimento = document.getElementById('dataNascimento').value;
+   var sexoPet = document.getElementById('sexoPet').value;
+   var email = document.getElementById('email').value;
+   var number = document.getElementById('number').value;
+   var descricao = document.getElementById('descricao').value;    
+   
+ 
+   // Limpar os campos do formulário
+   document.getElementById('firstname').value = '';
+   document.getElementById('dataNascimento').value = '';
+   document.getElementById('sexoPet').value = '';
+   document.getElementById('email').value = '';
+   document.getElementById('number').value = '';
+   document.getElementById('descricao').value = '';  
+ 
+   // Exibir mensagem de sucesso em um popup
+   alert('Cadastro do pet realizado com sucesso!');
+ 
+   // Redirecionar para a página de login
+   window.location.href = "../html/pagina-de-sucesso.html";
+ }
+ 
