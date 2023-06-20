@@ -54,6 +54,8 @@ function login() {
       // Exibe o popup correspondente
       if (usuarioEncontrado && senhaCorreta) {
         alert('Usuário logado!');
+        // Redirecionar para a página de login
+        window.location.href = "../html/cadastro-pet.html";
       } else if (usuarioEncontrado && !senhaCorreta) {
         alert('Senha incorreta!');
       } else {
