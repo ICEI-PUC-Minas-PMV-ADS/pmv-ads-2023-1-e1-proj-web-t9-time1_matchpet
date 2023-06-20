@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+/*cor do fundo */
+body {
+    width: 100%;
+    height: 105vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Navbar */
+#navbar {
+    width: 100%;
+    background: rgb(237, 18, 86);
+    color: #FFEAEA;
+    height: 60px;
+    position: fixed;
+    top: 0;
+}
+
+/* Elemento "filho" do navbar*/
+#navbar-container a,
+ul {
+    color: #FFEAEA;
+    text-decoration: none;
+}
+
+#navbar-container {
+    width: 98%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 2rem;
+}
+
+#navbar-items {
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+#navbar-items li {
+    padding: 10px;
+}
+
+/* Elemento "filho" do navbar*/
+.container {
+    margin-bottom: 40px;
+    width: 88%;
+    height: 90vh;
+    display: flex;   
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, .212);
+    max-width: 100%;
+}
+
+/*cor do fundo da imagem */
+.form-image {    
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff9fc;
+    padding: 2.5rem;
+}
+
+/*cor da imagem */
+.form-image img {    
+    width: 22rem;
+}
+
+/*cor do fundo do formulario */
+.form {    
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: #fff;
+    overflow: hidden;
+    
+}
+
+/*cor do titulo */
+.form-header {    
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2.5rem;
+}
+/*cor da linha abaixo do titulo */
+.form-header h1::after {    
+    content: '';
+    display: block;
+    width: 6rem;
+    height: 0.3rem;
+    background-color: rgb(237, 18, 86);
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+}
+
+/*cor do fundo do input */
+.input-group {    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+/*configurações do input */
+.input-box {    
+    display: flex;
+    margin-bottom: 2rem;
+    flex-direction: column;       
+}
+
+/*cor do fundo do input */
+.input-box input {    
+          margin: 0.4rem 0.1rem;
+    padding: 0.6rem 1.0rem;
+    width: 100%;    
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+}
+
+/*cor do fundo ao passar o mouse */
+.input-box input:hover {
+    background-color: #eeeeee75;    
+}
+
+/*cor da borda */
+.input-box input:focus-visible {
+    outline: 1px solid rgb(237, 18, 86);    
+}
+
+/*cor do texto do input nome, etc...*/
+.input-box label {    
+    font-size: 0.76rem;
+    font-weight: 600;
+    color: #000000c0;
+}
+
+/*cor do texto do input */
+.input-box input::placeholder {    
+    color: #000000be;       
+}
+
+/*cor do botão continuar */
+.continue-button button {     
+    width: 100%;
+    margin-top: 1rem;
+    border: none;
+    background-color: rgb(237, 18, 86);
+    padding: 0.6rem;
+    border-radius: 5px;
+    cursor: pointer;    
+    box-shadow: 4px 4px 4px #858585, 4px 4px 4px #858585;
+}
+
+/*cor do botão continuar ao passar o mouse */
+.continue-button button:hover {    
+    background-color: rgb(255, 212, 220);
+    
+}
+
+/*cor do texto do botão continuar */
+.continue-button button {    
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.93rem;
+    font-weight: 500;
+}
+
+/* Footer */
+#footer {
+    background: #FFEAEA;
+    color: #000000be;
+    padding: 29px;
+    bottom: 0;
+    text-align: center;
+    left: 0;
+    height: 40px;
+    position: fixed;
+    width: 100%;
+    display: block;
+    line-height: 15px;
+}
+
+/*deixar a imagem e o formulario responsivo */
+@media screen and (max-width: 1330px) {    
+    .container {
+        width: 50%;
+    }
+
+    .form-image {
+        display: none;
+    }
+
+    .form {
+        width: 100%;
+    }
+}
+
+/*deixar o formulario responsivo */
+@media screen and (max-width: 1064px) {    
+    .container {
+        width: 90%;
+        height: auto;
+    }
+
+    .form-image {
+        display: none;
+    }
+
+    .form {
+        width: 100%;
+    }
+
+    #navbar {
+        display: none;
+    }
+
+    #navbar-items {
+        display: none;
+    }
+
+    #footer {
+        display: none;
+    }   
+}
+
+@media screen and (max-width: 1330px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .form {
+        width: 100%;
+        padding: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .input-box input {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .input-box {
+        flex: 1 0 100%;
+    }
+
+    .continue-button button {
+        width: 100%;
+    }
+}

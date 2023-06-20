@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../imagens/favicon.ico" type="image/x-icon">
+    <title>Formulário de cadastro pet</title>
+    <link rel="stylesheet" href="../css/cadastro-pet.css">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="navbar-container">
+            <a href="../index.html">
+                <h1 class="logo">MATCHPET</h1>
+            </a>
+            <ul id="navbar-items">
+                <a href="../html/lista-animais.html">
+                    <li>Animais para adoção</li>
+                </a>
+                <li>
+                    <a href="../html/cadastro.html">
+                <li>Cadastre-se</li></a>
+                <a href="../html/login.html">
+                    <li>Entrar</li>
+                </a>
+                <a href="../html/quemsomos.html">
+                    <li>Quem somos</li>
+                </a>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="form-image">
+            <img src="../imagens/logo-matchpet.png" alt="cadastro">
+        </div>
+        <div class="form">
+            <form id="form-contato">
+
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Cadastrar Pet</h1>
+                    </div>
+                    <div class="home-button">
+                        <!-- <button><a href="../index.html">Voltar para Home</a></button>-->
+                    </div>
+                </div>
+
+                <div class="input-group"><!--Input do 1º nome - Required de obrigatório-->
+                    <div class="input-box">
+                        <label for="firstname">Nome do pet(*)</label>
+                        <input id="firstname" type="text" name="firstname" placeholder="Digite o nome do pet" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="dataNascimento">Data de Nascimento:</label>
+                        <input type="date" id="dataNascimento" name="dataNascimento">
+                    </div>
+
+                    <div class="input-box">
+                        <label for="sexo">Sexo(*)</label>
+                        <input type="sexo" id="sexoPet" name="sexoPet" placeholder="Digite o sexo do pet" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="nomeCidade">Nome da Cidade(*)</label>
+                        <input type="text" id="nomeCidade" name="nomeCidade" placeholder="Digite a cidade" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="email">E-mail(*)</label>
+                        <input id="email" type="email" name="email" placeholder="Digite o seu email" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="number">Telefone(*)</label>
+                        <input id="number" type="tel" pattern="[0-9]{2}\s[0-9]{5}-[0-9]{4}" name="number"
+                            placeholder="xx xxxxx-xxxx" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="foto">Foto:</label>
+                        <input id="foto" type="file" name="foto">
+                      </div>
+                      
+                    <div class="input-box">
+                        <label for="descricao">História:</label>
+                        <textarea id="descricao" name="descricao" rows="4" cols="50" placeholder="Deixe um breve histórico"></textarea>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="descricao">Cuidados específicos e Histórico:</label>
+                        <textarea id="descricao" name="descricao" rows="4" cols="50" placeholder="Deixe uma breve descrição"></textarea></textarea>
+                    </div>
+
+                </div>
+
+                <div class="form-group row">
+                    <div class="col-sm-4">
+                        <small>(*) Campos obrigatórios</small>
+                    </div>
+                </div>
+
+                <div class="continue-button">
+                    <button type="button" id="btnInsert">Cadastrar Pet</button>
+                </div>                
+            </form>
+        </div>
+    </div>
+    <footer id="footer">
+        <p>Copyright &copy; 2023 - Todos os direitos reservados</p>
+        <p>Feito por Matchpet</p>
+    </footer>
+    <script src="../js/cadastro-pet.js"></script> <!-- add para funcionar o cad -->
+</body>
+
+</html>
