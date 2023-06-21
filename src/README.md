@@ -85,3 +85,41 @@
 ### Ajustes
 - Ajuste padding do conteiner
 - ajuste o height do footer
+
+### v[0.1.9] - 14/06/2023
+### Ajustes
+- Hospedagem do site no GitPages
+
+### v[0.2.0] - 19/06/2023
+### Alterações
+- Adiciona max-width no css do cadastro(container, form, form header, input box, continue button.
+- Alterado media screen cadastro
+- Alterado todas as cores de footer
+- Alterado fundo e imagem de cadastro, quem somos e login
+- Removido PETACTION
+- Alterado cor de product e testemunhas de home
+- Corrigido caminho de img da home
+
+### v[0.2.1] - 19/06/2023
+### Alteração
+- Aicionado z-index: 9999; na nav
+- Alterado footer
+
+### v[0.2.2] - 19/06/2023
+### Ajuste
+- Modificações cor body - css perfil.pet
+
+### v[0.2.3] - 21/06/2023
+### Adicionado 
+- Add pagina de cadastro-pet.html
+- Add pagina de cadastro-pet.css
+- Add pagina de cadastro-pet.js
+- Add pagina de pagina-de-sucesso.html
+- Add pagina de pagina-de-sucesso.css
+  
+### v[0.2.4] - 21/06/2023
+### Ajuste e correção 
+- Redirect de cadastro-pet.html para pagina-d-sucesso.html
+- Add funcionalidades para validar campos
+- add func. para exibir mensagem de sucesso
+- obter dados do formulário
