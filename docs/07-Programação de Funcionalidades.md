@@ -16,8 +16,11 @@ A tela principal apresenta uma página inicial exibindo botão de cadastro de us
 - home_style.css 
 
 ### Instruções de acesso   
-1. Abra um navegador de Internet e informe a seguinte URL:
-2. A tela de principal é a primeira funcionalidade exibida pelo aplicativo. 
+1. Abra um navegador de Internet e informe a seguinte URL:https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-1-e1-proj-web-t9-time1_matchpet/src/
+2. A tela de principal é a primeira funcionalidade exibida pelo aplicativo.
+3. Navegue pelo menu e escolha o que prentede.
+4. Após selecionar sua opção, aguarde o carregamento da página correspondente. 
+5. Explore as diferentes seções e recursos disponíveis dentro da funcionalidade escolhida. 
 
 ## Tela Quem somos  (RF-02)   
 O site deve exibir uma página do menu “Quem somos”.
@@ -32,7 +35,7 @@ O site deve exibir uma página do menu “Quem somos”.
 - quemsomos.css 
 
 ### Instruções de acesso   
-1. Abra um navegador de Internet e informe a seguinte URL:
+1. Abra um navegador de Internet e informe a seguinte URL:https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-1-e1-proj-web-t9-time1_matchpet/src/
 2. A tela de principal é a primeira funcionalidade exibida pelo aplicativo. 
 3. Clique no botão “Quem Somos”.
 
@@ -53,7 +56,7 @@ A tela lista de animais, permite que o usuário visualize os animais disponívei
 - lista-animais.js
 
 ### Instruções de acesso   
-1. Abra um navegador de Internet e informe a seguinte URL: 
+1. Abra um navegador de Internet e informe a seguinte URL:https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-1-e1-proj-web-t9-time1_matchpet/src/ 
 2. A tela de principal é a primeira funcionalidade exibida pelo aplicativo.
 3. Clique no botão “animais para adoção”
 
@@ -73,7 +76,7 @@ Permite que o usuário visualize os animais disponíveis para adoção, faça bu
 - perfil.css 
 
 ### Instruções de acesso   
-1. Abra um navegador de Internet e informe a seguinte URL:
+1. Abra um navegador de Internet e informe a seguinte URL:https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-1-e1-proj-web-t9-time1_matchpet/src/
 2. A tela de principal é a primeira funcionalidade exibida pelo aplicativo.
 3. Clique no botão “animais para adoção”.
 4. Escolha um animal e clique na foto.
@@ -100,7 +103,7 @@ A tela de login permite que os usuários façam o login ao clicar no botão “E
 ![Dados Estruturados](/src/imagens/dados-estruturados.PNG)
 
 ### Instruções de acesso   
-1. Abra um navegador de Internet e informe a seguinte URL: 
+1. Abra um navegador de Internet e informe a seguinte URL:https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-1-e1-proj-web-t9-time1_matchpet/src/ 
 2. A tela de principal é a primeira funcionalidade exibida pelo aplicativo. 
 3. Clique no botão “Entrar”.
 
@@ -118,26 +121,53 @@ A tela de cadastro permite que os usuários criem um cadastro de usuário para d
 - cadastro.css 
 - cadastro.js  
 ### Instruções de acesso   
-1. Abra um navegador de Internet e informe a seguinte URL:
+1. Abra um navegador de Internet e informe a seguinte URL:https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-1-e1-proj-web-t9-time1_matchpet/src/
 2. A tela de principal é a primeira funcionalidade exibida pelo aplicativo.
 3. Clique no botão “Cadastre-se”.   
 
-## Tela Recuperar Senha (RF-13)   
+
+## Tela Cadastrar Pet (RF-09, RF-10)    
+
+Na tela de cadastro de pets, o usuário pode inserir informações sobre o animal, como espécie, nome, sexo, data de nascimento, entre outros detalhes. Isso possibilita o cadastro completo do pet. Após o cadastro do pet, o usuário será automaticamente redirecionado para uma página de confirmação.   
+
+![Tela de Cadastro pet](/src/imagens/telas-funcionalidade/cadastrar-pet.PNG)
+<center> Figura 7 - Tela de Cadastro pet </center>   
+
+
+![Tela de sucesso](/src/imagens/telas-funcionalidade/pagina-sucesso.jpeg)
+<center> Figura 8 - Tela de sucesso </center> 
+
+### Requisitos atendidos 
+- RF-09-
+- RF-10-   
+### Artefatos da funcionalidade   
+- cadastro-pet.html 
+- cadastro-pet.css
+- cadastro-pet.js 
+
+### Instruções de acesso   
+1. Abra um navegador de Internet e informe a seguinte URL:https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-1-e1-proj-web-t9-time1_matchpet/src/
+2. A tela de principal é a primeira funcionalidade exibida pelo aplicativo.
+3. Clique no botão “Entrar”.
+4. Coloque os dados cadastrados.
+5. Será redirecionado para a página "cadastrar-pet".
+
+## Tela Recuperar Senha (RF-11)   
 
 Na tela esqueceu a senha, o usuário pode recuperar sua senha ao digitar seu endereço de e-mail.  
 
 ![Tela Recuperar Senha](/src/imagens/telas-funcionalidade/recuperar-senha.PNG)
-<center> Figura 7 - Tela Recuperar Senha </center> 
+<center> Figura 9 - Tela Recuperar Senha </center> 
 
 ### Requisitos atendidos 
-- RF-13-   
+- RF-11-   
 ### Artefatos da funcionalidade   
 - recuperar-password.html
 - recuperar-password.css 
 - recuperar-password.js 
 
 ### Instruções de acesso   
-1. Abra um navegador de Internet e informe a seguinte URL:
+1. Abra um navegador de Internet e informe a seguinte URL:https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-1-e1-proj-web-t9-time1_matchpet/src/
 2. A tela de principal é a primeira funcionalidade exibida pelo aplicativo.
 3. Clique no botão “Entrar”. 
 4. Na página de login clique em “Esqueceu sua senha?.
