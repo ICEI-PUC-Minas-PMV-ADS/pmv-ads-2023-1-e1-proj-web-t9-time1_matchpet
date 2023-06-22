@@ -114,6 +114,19 @@ Caso de teste: Recuperar password: Formato incorreto
 
 
 
+
+### CT-11 Redirecionamento para a página de sucesso após o cadastro
+### Renata Gonzaga: Responsável pelo ct-11
+Caso de teste: Redirecionamento para a página de sucesso após o cadastro   
+- Entrada: Submeter o formulário de cadastro com todos os campos preenchidos corretamente   
+- Saída esperada: O usuário é redirecionado para a página de sucesso após o cadastro do pet.
+  
+![Caso Teste 11](/src/imagens/caso-teste-cadastro-pet/teste-cadPet.png)
+<center> Figura 11 - CT-11 </center>     
+
+  
+
+
 <span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>, <a href="8-Plano de Testes de Software.md"> Plano de Testes de Software</a>
 
 Relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado em um plano de testes pré-definido.
