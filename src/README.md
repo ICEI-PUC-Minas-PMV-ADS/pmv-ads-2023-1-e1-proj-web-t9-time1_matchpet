@@ -123,3 +123,9 @@
 - Add funcionalidades para validar campos
 - add func. para exibir mensagem de sucesso
 - obter dados do formulário
+
+### v[0.2.5] - 22/06/2023
+### Ajuste
+- Alterado a posição de quem somo no menu de todas as páginas
+- Mudança de texto da home de "Nosso Produto" para "Nosso Projeto"
+- Correção caminho na pagina de perfil-pet para animais para adoção.
