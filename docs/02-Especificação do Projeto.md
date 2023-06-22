@@ -63,12 +63,8 @@ Na Tabela abaixo estão expostos os requisitos funcionais que o site deve atende
 |RF-007| O site deve exibir uma página para login ao clicar no botão “Entrar”. | ALTA | 
 |RF-008| O site deve exibir uma página para cadastro do usuário ao clicar no botão “Cadastre-se”. | ALTA |
 |RF-009| No perfil do usuário deve exibir um menu de cadastro de animais. | ALTA | 
-|RF-010| No menu de cadastro de animais deve permitir o cadastro das seguintes informações espécie, nome, sexo, porte, idade, características do animal, história, cuidados específicos, observações sobre os pré-requisitos para a adoção, estado, cidade e check-box para animais adotados. | ALTA |
-|RF-011| O site deve permitir que os usuários façam manutenção de seu cadastro. | ALTA | 
-|RF-012| O site deve permitir que o usuários façam a manutenção dos cadastros dos animais para adoção. | MÉDIA |
-|RF-013| O site deve permitir a recuperação de senhas por meio do e-mail cadastrado. | ALTA | 
-|RF-014| O site deve retirar da lista de animais disponíveis para adoção os animais que forem marcados como adotados. | MÉDIA |
-
+|RF-010| No menu de cadastro de animais deve permitir o cadastro das seguintes informações espécie, nome, sexo, data de nascimento, história, cuidados específicos e cidade. | ALTA |
+|RF-011| O site deve permitir a recuperação de senhas por meio do e-mail cadastrado. | ALTA | 
 
 ### Requisitos não Funcionais
 
