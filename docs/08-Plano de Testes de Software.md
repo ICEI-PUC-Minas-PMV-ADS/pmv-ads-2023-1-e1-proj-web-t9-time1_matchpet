@@ -91,7 +91,7 @@ Abaixo estão descritas as etapas dos testes funcionais:
 
 |Casos de Teste | CT-08– Recuperar password    |
 |:--------------:        |---------------------------------------|
-|Requisitos associados   | RF-13 - O site deve permitir a recuperação de senhas por meio do e-mail cadastrado. |
+|Requisitos associados   | RF-11 - O site deve permitir a recuperação de senhas por meio do e-mail cadastrado. |
 |Objetivo do Teste       | Apresentar mensagem de recuperação de senha.   |
 |Passos                  | 1)  Acessar o Navegador |
 |                        | 2)  Informar o endereço do Site |
@@ -105,7 +105,7 @@ Abaixo estão descritas as etapas dos testes funcionais:
 
 |Casos de Teste | CT-09 – Recuperar password: Campos vazios    |
 |:--------------:        |---------------------------------------|
-|Requisitos associados   | RF-13 - O site deve permitir a recuperação de senhas por meio do e-mail cadastrado. |
+|Requisitos associados   | RF-11 - O site deve permitir a recuperação de senhas por meio do e-mail cadastrado. |
 |Objetivo do Teste       | Apresentar uma mensagem de preenchimento de campos.    |
 |Passos                  | 1)  Acessar o Navegador |
 |                        | 2)  Informar o endereço do Site |
@@ -119,18 +119,36 @@ Abaixo estão descritas as etapas dos testes funcionais:
 
 |Casos de Teste | CT-10 – Recuperar password: Formato incorreto    |
 |:--------------:        |---------------------------------------|
-|Requisitos associados   | RF-13 - O site deve permitir a recuperação de senhas por meio do e-mail cadastrado. |
+|Requisitos associados   | RF-11 - O site deve permitir a recuperação de senhas por meio do e-mail cadastrado. |
 |Objetivo do Teste       | Apresentar mensagem para digitar o e-mail conforme o esperado.     |
 |Passos                  | 1)  Acessar o Navegador |
 |                        | 2)  Informar o endereço do Site |
 |                        | 3)  Visualizar a página principal |
 |                        | 4)  Clicar em “Entrar” |
-|                        | 5)  Na página de login iclicar em: Esqueceu a senha?  |
+|                        | 5)  Na página de login clicar em: Esqueceu a senha?  |
 |                        | 6)  Digitar seu e-mail: "email": "jperesnomail.com"  |
 |                        | 7)  Clicar no botão "Enviar”.|
-| Critérios de êxito     | A O sistema deve apresentar na tela a mensagem “Inclua um @ no endereço de e-mail.” jperesnomail.com” está com um @ faltando” para ao usuário. |
+| Critérios de êxito     | O sistema deve apresentar na tela a mensagem “Inclua um @ no endereço de e-mail.” jperesnomail.com” está com um @ faltando” para ao usuário. |
 
 
+
+
+|Casos de Teste | CT-11 – Cadastrar pet: Redirecionamento    |
+|:--------------:        |---------------------------------------|
+|Requisitos associados   | RF-10 - No menu de cadastro de animais deve permitir o cadastro das seguintes informações espécie, nome, sexo, data nascimento, características do animal, história, cuidados específicos, estado e cidade. |
+|Objetivo do Teste       | Testar o redirecionamento para a página de sucesso após o cadastro. |
+|Passos                  | 1)  Acessar o Navegador |
+|                        | 2)  Informar o endereço do Site |
+|                        | 3)  Visualizar a página principal |
+|                        | 4)  Clicar em “Entrar” |
+|                        | 5)  Digitar seu e-mail: "email": "jperesnomail.com" e password: “159357”|
+|                        | 6)  Clicar no botão "Entrar" |
+|                        | 7)  Visualizar a página “cadastrar-pet” |
+|                        | 8)  Preencher campos obrigatórios do formulário |
+|                        | 9)  Clicar no botão "Cadastrar Pet"  |
+|                        | 10) Verificar se não há mensagens de erro exibidas. |
+|                        | 11) Verificar se o usuário é redirecionado automaticamente para a página de sucesso. |
+| Critérios de êxito     | O usuário é redirecionado para a página de sucesso após o cadastro do pet.  |
 
 
 
