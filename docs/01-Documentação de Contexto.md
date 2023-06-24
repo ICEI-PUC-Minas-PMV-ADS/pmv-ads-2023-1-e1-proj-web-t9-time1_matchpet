@@ -20,7 +20,7 @@ Criar um sistema que facilite o processo de adoção para ajudar pessoas comuns,
 
 Como objetivos específicos, podemos ressaltar: 
 
-- Criar um sistema de cadastro de abrigos e organizações de proteção animal. 
+- Criar um sistema de cadastro. 
 
 - Possibilitar a troca de informações e interação entre doadores e adotantes. 
 
