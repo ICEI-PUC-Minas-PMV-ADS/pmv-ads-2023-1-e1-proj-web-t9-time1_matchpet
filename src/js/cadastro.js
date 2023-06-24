@@ -41,7 +41,7 @@ function cadastrarUsuario() {
   var number = document.getElementById('number').value;
   var cpf = document.getElementById('cpf').value;
   var password = document.getElementById('password').value;
-  var petAction = document.getElementById('petAction').value;
+  //var petAction = document.getElementById('petAction').value;
 
   // Criar um objeto com os dados do usuário
   var usuario = {
@@ -52,7 +52,7 @@ function cadastrarUsuario() {
     number: number,
     cpf: cpf,
     password: password,
-    petAction: petAction
+    //petAction: petAction
   };
 
   // Adicionar o usuário ao array de usuários
@@ -66,7 +66,7 @@ function cadastrarUsuario() {
   document.getElementById('number').value = '';
   document.getElementById('cpf').value = '';
   document.getElementById('password').value = '';
-  document.getElementById('petAction').selectedIndex = 0;
+  //document.getElementById('petAction').selectedIndex = 0;
 
   // Chamar a função para salvar os usuários no arquivo JSON
   salvarUsuarios();
