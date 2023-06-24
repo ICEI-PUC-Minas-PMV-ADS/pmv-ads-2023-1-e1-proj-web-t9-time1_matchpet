@@ -68,8 +68,8 @@ space-between justifica um espaco entre o pai e filho*/
 }
 
 .container {
-    margin-bottom: 40px;
-    width: 80%;    
+    margin-bottom: px;
+    width: 82%;    
     height: 80vh;   
     display: flex;
     box-shadow: 5px 5px 10px rgb(0, 0, 0, .212);
@@ -85,7 +85,7 @@ space-between justifica um espaco entre o pai e filho*/
 }
 
 .form-image img {/*cor da imagem */
-    width: 31rem;   
+    width: 29rem;   
 } 
 
 #container-texto{
