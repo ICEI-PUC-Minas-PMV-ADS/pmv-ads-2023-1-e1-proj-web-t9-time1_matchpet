@@ -8,8 +8,7 @@
             "email": "jperes@nomail.com",
             "number": "73 12345-1234",
             "cpf": "121.345.678-90",
-            "password": "159357",
-            "petAction": "adotar"
+            "password": "159357"           
         },
         {
             "id": "2",
@@ -19,8 +18,7 @@
             "email": "alfiebatata@hotmail.com",	
             "number": "73 12345-1235",
             "cpf": "022.944.122-03",
-            "password": "159357",
-            "petAction": "doar"
+            "password": "159357"            
         }    
     ]   
 }
