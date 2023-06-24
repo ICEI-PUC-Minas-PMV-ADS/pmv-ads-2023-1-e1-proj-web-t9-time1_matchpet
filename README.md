@@ -12,20 +12,63 @@
 
 Página web para adoção de animais.
 
-## Integrantes
+# Integrantes
 
 * Bruno Nery da Silva
 * Gabriel Victor Miranda de Oliveira
 * Marcela Ratton Santos Silva
 * Renata Gonzaga Barbosa
 
-## Orientador
+# Orientador
 
 * Marco Rodrigo Costa
 
-## Instruções de utilização
+# Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+
+Este é um formulário de cadastro HTML que permite aos usuários preencherem informações pessoais e se cadastrarem. Os dados inseridos são salvos em um arquivo JSON.
+
+## Configuração
+Antes de usar o formulário de cadastro, você precisa configurar um ambiente de servidor HTTP para executar o arquivo HTML e o arquivo JavaScript corretamente. Você pode usar um servidor local como o ´http-server`para isso. Siga as instruções abaixo para configurar o ambiente:
+Certifique-se de ter o Node.js instalado em seu sistema. Você pode fazer o download e instalar o Node.js a partir do site oficial: https://nodejs.org
+Abra o terminal ou prompt de comando e instale o pacote ´http-server´ globalmente usando o seguinte comando:
+
+```console
+npm install -g http-server
+```
+## Executando o servidor
+Depois de instalar o´http-server`, Navegue até a pasta /src do projeto usando o terminal do VScode ou o prompt de comando e inicie o servidor HTTP executando o seguinte comando no terminal do VSCode ou prompt de comando:
+
+```console
+npx http-server
+```
+Isso iniciará o servidor HTTP na porta padrão`8080`. 
+O `http-server` iniciará um servidor local e fornecerá um endereço IP e uma porta (por exemplo, http://127.0.0.1:8080 ). Você pode acessar o projeto abrindo esse endereço no seu navegador.
+
+Observação: Certifique-se de que o comando seja executado no diretório correto onde o arquivo `index.html` está localizado.
+
+Se você deseja usar uma porta diferente, pode especificá-la adicionando uma opção `-p` seguida do número da porta. Por exemplo, para usar a porta`3000`, execute o seguinte comando:
+```console
+npx http-server -p 3000
+```
+## Acessando o formulário de cadastro
+Com o servidor HTTP em execução, você pode acessar o formulário de cadastro abrindo um navegador web para o seguinte endereço:
+
+http://localhost:8080/html/cadastro.html
+
+
+Se você estiver usando uma porta diferente, substitua `8080` pelo número da porta que você especificou ao iniciar o servidor.
+
+Preenchendo o formulário de cadastro
+No formulário de cadastro, preencha todos os campos obrigatórios indicados com um asterisco (*). Os campos obrigatórios incluem:
+
+Após preencher os campos, clique no botão "Cadastrar". Se todos os campos obrigatórios forem preenchidos corretamente, você receberá uma mensagem de sucesso em uma janela pop-up e será redirecionado para a página de login.
+
+## Executando o Chrome com CORS desabilitado [GitHub link](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-1-e1-proj-web-t9-time1_matchpet/src/)
+O CORS (Cross-Origin Resource Sharing) é uma política de segurança implementada pelos navegadores que impede solicitações de recursos (como arquivos JavaScript, imagens, fontes, etc.) de diferentes origens, a menos que essas origens tenham explicitamente permitido o acesso. Isso é feito para proteger os usuários contra ataques de cross-site scripting (XSS) e outros problemas de segurança relacionados.
+
+Quando você desabilita o CORS, está permitindo que o Chrome faça solicitações de recursos de qualquer origem, mesmo que essas origens não tenham permitido explicitamente o acesso. Isso pode ser útil em certos casos, como desenvolvimento de aplicativos da web, depuração ou testes, quando você precisa contornar temporariamente as restrições de segurança impostas pelo CORS.
+
 
 # Documentação
 
