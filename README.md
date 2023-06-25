@@ -37,7 +37,11 @@ Abra o terminal ou prompt de comando e instale o pacote ´http-server´ globalme
 npm install -g http-server
 ```
 ## Executando o servidor
-Depois de instalar o´http-server`, Navegue até a pasta /src do projeto usando o terminal do VScode ou o prompt de comando e inicie o servidor HTTP executando o seguinte comando no terminal do VSCode ou prompt de comando:
+Depois de instalar o´http-server`, Navegue até a pasta /src do projeto usando o terminal do VScode ou o prompt de comando.  
+```console
+cd src
+```
+Inicie o servidor HTTP executando o seguinte comando no terminal do VSCode ou prompt de comando:
 
 ```console
 npx http-server
