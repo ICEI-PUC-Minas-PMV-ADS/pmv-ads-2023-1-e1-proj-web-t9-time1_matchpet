@@ -4,7 +4,7 @@
 
 <a href="../presentation/README.md"> Clique aqui para fazer os uploads dos arquivos de apresentação da solução.</a>
 
-[Demostração da solução](/presentation/demostracao-solucao.mp4)
+[Demostração da solução](/presentation/solucao.mp4)
 # Material de Apoio sobre a Apresentação de um Produto
 
 ## Título do Projeto
