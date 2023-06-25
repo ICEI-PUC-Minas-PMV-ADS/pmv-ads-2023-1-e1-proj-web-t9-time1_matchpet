@@ -1,11 +1,9 @@
 # Apresentação
 
-<span style="color:red">Pré-requisitos: Todos os demais artefatos</span>
+[PPTX de apresentação](presentation/apresentacaoMATCHPET.pptx)
 
-<a href="../presentation/README.md"> Clique aqui para fazer os uploads dos arquivos de apresentação da solução.</a>
 
 [Demostração da solução](/presentation/demonstracao-solucao.mp4)
-# Material de Apoio sobre a Apresentação de um Produto
 
 ## Título do Projeto
 
