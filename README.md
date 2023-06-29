@@ -73,6 +73,21 @@ O CORS (Cross-Origin Resource Sharing) é uma política de segurança implementa
 
 Quando você desabilita o CORS, está permitindo que o Chrome faça solicitações de recursos de qualquer origem, mesmo que essas origens não tenham permitido explicitamente o acesso. Isso pode ser útil em certos casos, como desenvolvimento de aplicativos da web, depuração ou testes, quando você precisa contornar temporariamente as restrições de segurança impostas pelo CORS.
 
+Como o nosso projeto salva e lê um arquivo JSON para simular a escrita dos dados numa base de dados fake, é necessário desabilitar o CORS para executar corretamente o javascript que realiza essas operações. 
+
+### Passos
+Abra o terminal ou prompt de comando do seu sistema operacional.
+Navegue até o diretório onde o executável do Google Chrome está localizado. Por exemplo, se você estiver usando o Windows, o caminho padrão pode ser "C:\Program Files\Google\Chrome\Application".
+Execute o seguinte comando, substituindo <caminho-do-diretório-de-dados> pelo caminho completo para o diretório onde você deseja armazenar os dados do usuário temporários:
+```console
+chrome.exe --user-data-dir="<caminho-do-diretório-de-dados>" --disable-web-security --disable-site-isolation-trials
+```
+Exemplo: chrome.exe --user-data-dir="C://chrome-dev-disabled-security" --disable-web-security --disable-site-isolation-trials
+
+Pressione Enter para executar o comando.
+O Google Chrome será iniciado com as configurações de segurança do CORS desabilitadas
+
+
 
 # Documentação
 
