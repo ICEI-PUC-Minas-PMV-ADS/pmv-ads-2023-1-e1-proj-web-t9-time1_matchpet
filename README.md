@@ -80,9 +80,10 @@ Abra o terminal ou prompt de comando do seu sistema operacional.
 Navegue até o diretório onde o executável do Google Chrome está localizado. Por exemplo, se você estiver usando o Windows, o caminho padrão pode ser "C:\Program Files\Google\Chrome\Application".
 Execute o seguinte comando, substituindo <caminho-do-diretório-de-dados> pelo caminho completo para o diretório onde você deseja armazenar os dados do usuário temporários:
 ```console
-chrome.exe --user-data-dir="<caminho-do-diretório-de-dados>" --disable-web-security --disable-site-isolation-trials
+.\chrome.exe --user-data-dir="<caminho-do-diretório-de-dados>" --disable-web-security --disable-site-isolation-trials
 ```
-Exemplo: chrome.exe --user-data-dir="C://chrome-dev-disabled-security" --disable-web-security --disable-site-isolation-trials
+Exemplo: .\chrome.exe --user-data-dir="C:\chrome-dev-disabled-security"--disable-web-security --disable-site-isolation-trials
+
 
 Pressione Enter para executar o comando.
 O Google Chrome será iniciado com as configurações de segurança do CORS desabilitadas
