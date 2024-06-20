@@ -1,0 +1,30 @@
+message: Please cite this software using these metadata.
+title: Página web para adoção de animais.
+authors:
+  - family-names: Gonzaga Barbosa
+    given-names: Renata
+  - family-names: Victor Miranda de Oliveira
+    given-names: Gabriel 
+  - family-names: 
+    given-names: 
+  - family-names: 
+    given-names: 
+  - family-names: 
+    given-names: 
+  - family-names: 
+    given-names: 
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: 
+    given-names: 
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Rodrigo Costa
+    given-names: Marco
+keywords:
+  - Adoção
+  - Pet
+  - Animais
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t9-time1_matchpet.git
+version: 1.0.0
+date-released: 2023-06-29
